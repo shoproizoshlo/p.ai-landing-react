@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
-import Logo from "../../assets/Logo.svg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -18,9 +18,6 @@ const Header = () => {
           {isMenuOpen ? (
             <div>
               <FontAwesomeIcon icon="fa-solid fa-xmark" size="xl" />
-              <div>
-                <img src={Logo} alt="Logo" />
-              </div>
               <Navbar />
             </div>
           ) : (
@@ -29,9 +26,6 @@ const Header = () => {
         </div>
       ) : (
         <div>
-          <div>
-            <img src={Logo} alt="Logo" />
-          </div>
           <Navbar />
         </div>
       )}

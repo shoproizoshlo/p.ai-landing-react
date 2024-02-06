@@ -1,0 +1,15 @@
+.nav {
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  padding-left: 30px;
+  list-style: none;
+}
+li:hover,
+li:active {
+  cursor: pointer;
+}

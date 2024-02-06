@@ -1,0 +1,16 @@
+.marketers {
+  width: 100%;
+  background-color: black;
+}
+.marketers p {
+  color: white;
+}
+
+.marketers-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.marketers-logo img {
+  padding-right: 20px;
+}

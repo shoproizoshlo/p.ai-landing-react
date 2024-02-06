@@ -1,12 +1,10 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
 import Logo from "../../assets/Logo.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
-import { faTwitter, faFontAwesome } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-library.add(fas, faTwitter, faFontAwesome);
+library.add(fas);
 
 import "../../styles/Header.css";
 

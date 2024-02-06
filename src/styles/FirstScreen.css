@@ -1,0 +1,40 @@
+.first-screen h1 {
+  width: 550px;
+  margin: 10px auto;
+  color: #0d0d0d;
+  font-size: 55px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 62px;
+  letter-spacing: 2.934000015258789px;
+  text-transform: none;
+}
+
+.first-screen h2 {
+  color: #7e5fff;
+  font-size: 55px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 62px;
+  margin-bottom: 50px;
+  letter-spacing: 2.934000015258789px;
+  text-transform: none;
+}
+
+.first-screen p {
+  width: 580px;
+  margin: 10px auto;
+  color: #0d0d0d;
+  font-size: 22px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.7739999890327454px;
+  text-transform: none;
+}

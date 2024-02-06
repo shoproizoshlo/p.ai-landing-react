@@ -2,9 +2,9 @@ import Homepage from "./Homepage/Homepage";
 
 const Main = () => {
   return (
-    <>
+    <main>
       <Homepage />
-    </>
+    </main>
   );
 };
 

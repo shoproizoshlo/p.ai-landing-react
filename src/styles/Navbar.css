@@ -1,0 +1,21 @@
+.navbar {
+  margin: 0 auto;
+  color: #0d0d0d;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: normal;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  padding-left: 30px;
+  list-style: none;
+}
+li:hover,
+li:active {
+  cursor: pointer;
+}

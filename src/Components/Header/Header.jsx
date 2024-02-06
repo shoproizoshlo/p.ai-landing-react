@@ -14,7 +14,10 @@ const Header = () => {
   return (
     <header>
       {window.innerWidth < 767 ? (
-        <div onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}>
+        <div
+          className="header"
+          onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
+        >
           {isMenuOpen ? (
             <div>
               <FontAwesomeIcon icon="fa-solid fa-xmark" size="xl" />
@@ -25,7 +28,7 @@ const Header = () => {
           )}
         </div>
       ) : (
-        <div>
+        <div className="header">
           <Navbar />
         </div>
       )}

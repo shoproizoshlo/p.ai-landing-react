@@ -2,7 +2,8 @@
   margin: 150px 0;
 }
 .first-screen h1 {
-  /* width: 550px; */
+  max-width: 550px;
+
   margin: 10px auto;
   color: #0d0d0d;
   font-size: 55px;
@@ -29,7 +30,7 @@
 }
 
 .first-screen p {
-  /* width: 580px; */
+  max-width: 585px;
   margin: 10px auto;
   color: #0d0d0d;
   font-size: 22px;

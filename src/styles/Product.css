@@ -60,8 +60,7 @@
 }
 
 .product-img {
-  /* flex: 0 0 33.3333%; */
-  flex: 1 1 5.3333%;
+  flex: 0 0 50%;
   min-height: 150px;
   overflow: hidden;
   position: relative;

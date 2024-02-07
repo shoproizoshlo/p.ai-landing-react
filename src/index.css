@@ -28,7 +28,7 @@ aside {
 html,
 body,
 #root {
-  height: 100%;
+  height: auto;
   width: 100%;
   font-size: 100%;
   line-height: 1;
@@ -78,7 +78,8 @@ h6 {
 }
 /*--------------------*/
 /* main take up the whole screen */
-body {
+body,
+#root {
   display: flex;
   flex-direction: column;
 }

@@ -1,5 +1,5 @@
 .product {
-  margin: 200px 60px;
+  /* margin: 200px 60px; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,10 +10,12 @@
 }
 
 .product-description {
-  padding: 20px 160px 20px 20px;
+  /* padding: 20px 160px 20px 20px; */
   flex: 1;
 }
 .product-description h3 {
+  max-width: 405px;
+
   margin-bottom: 25px;
   color: #0d0d0d;
   font-size: 58px;
@@ -28,6 +30,8 @@
 }
 
 .product-description p {
+  max-width: 420px;
+
   margin-bottom: 30px;
   color: #0d0d0d;
   font-size: 18px;

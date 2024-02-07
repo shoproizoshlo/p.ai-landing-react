@@ -1,9 +1,13 @@
 import FirstScreen from "./FirstScreen";
 import Marketers from "./Marketers";
 import Product from "./Product";
+import About from "./About";
+
 import Predict from "../../../assets/predict.svg";
 import Determine from "../../../assets/determine.svg";
 import Activate from "../../../assets/activate.svg";
+import ImgAbout from "../../../assets/about.svg";
+
 import "../../../styles/Homepage.css";
 
 const Homepage = () => {
@@ -32,6 +36,10 @@ const Homepage = () => {
           productImg={Activate}
         />
       </div>
+      <About
+        headingAbout="Volume, uplift and efficiency. No trade-offs."
+        imgAbout={ImgAbout}
+      />
     </div>
   );
 };

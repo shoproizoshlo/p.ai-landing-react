@@ -1,8 +1,8 @@
-/* .first-screen {
+.first-screen {
   margin: 150px 0;
 }
 .first-screen h1 {
-  width: 550px;
+  /* width: 550px; */
   margin: 10px auto;
   color: #0d0d0d;
   font-size: 55px;
@@ -29,7 +29,7 @@
 }
 
 .first-screen p {
-  width: 580px;
+  /* width: 580px; */
   margin: 10px auto;
   color: #0d0d0d;
   font-size: 22px;
@@ -40,4 +40,4 @@
   line-height: 35px;
   letter-spacing: 0.7739999890327454px;
   text-transform: none;
-} */
+}

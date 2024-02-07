@@ -1,5 +1,5 @@
-/* .marketers {
-  width: 100%;
+.marketers {
+  /* width: 100%; */
   padding: 50px;
   background-color: black;
   text-align: center;
@@ -15,4 +15,4 @@
 
 .marketers-logo img {
   padding-right: 20px;
-} */
+}

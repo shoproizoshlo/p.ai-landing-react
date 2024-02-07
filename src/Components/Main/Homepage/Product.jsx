@@ -3,7 +3,7 @@ import "../../../styles/Product.css";
 const Product = ({ heading3, productDescription, productImg }) => {
   return (
     <div className="product">
-      <div>
+      <div className="product-description">
         <h3>{heading3}</h3>
         <p>{productDescription}</p>
         <button type="button">Learn more</button>

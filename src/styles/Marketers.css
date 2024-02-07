@@ -1,6 +1,8 @@
 .marketers {
   width: 100%;
+  padding: 50px;
   background-color: black;
+  text-align: center;
 }
 .marketers p {
   color: white;

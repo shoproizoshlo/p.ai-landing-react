@@ -26,12 +26,15 @@ aside {
   display: block;
 }
 html,
-body {
+body,
+#root {
   height: 100%;
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -74,3 +77,11 @@ h6 {
   font-weight: inherit;
 }
 /*--------------------*/
+/* main take up the whole screen */
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 1 auto;
+}

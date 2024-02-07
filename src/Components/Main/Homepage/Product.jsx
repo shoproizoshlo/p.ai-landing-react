@@ -8,7 +8,7 @@ const Product = ({ heading3, productDescription, productImg }) => {
         <p>{productDescription}</p>
         <button type="button">Learn more</button>
       </div>
-      <div>
+      <div className="product-img">
         <img src={productImg} alt="" />
       </div>
     </div>

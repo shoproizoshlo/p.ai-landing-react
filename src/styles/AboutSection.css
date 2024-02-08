@@ -1,6 +1,7 @@
 .about-section {
   padding: 10px;
   width: 386px;
+  height: 319px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +10,7 @@
 }
 
 .about-section .line {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   width: 356px;
   height: 8px;
   background-color: #39aaff;
@@ -18,14 +19,14 @@
 .about-section .content-about-section {
   margin: 20px;
 }
-.about-section .heading-about-section {
+.about-section .content-about-section .heading-about-section {
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.about-section h4 {
+.content-about-section .heading-about-section h4 {
   margin-left: 20px;
   color: #fff;
   font-size: 24px;
@@ -37,7 +38,7 @@
   text-transform: none;
 }
 
-.about-section p {
+.content-about-section p {
   color: #fff;
   font-size: 16px;
   font-style: normal;

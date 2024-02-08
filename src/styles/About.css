@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.about h3 {
+.about > h3 {
   max-width: 777px;
   color: #fff;
   font-size: 58px;
@@ -20,7 +20,7 @@
   letter-spacing: 0.5580000281333923px;
   text-transform: none;
 }
-.about p {
+.about > p {
   color: #fff;
   font-size: 39px;
   font-style: normal;
@@ -33,7 +33,12 @@
   letter-spacing: 0.8100000023841858px;
   text-transform: none;
 }
-.about button {
+.about .about-sections {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.about > button {
   background-color: white;
   color: #000;
   font-size: 16px;

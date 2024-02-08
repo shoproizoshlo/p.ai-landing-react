@@ -17,10 +17,16 @@
   border-radius: 4px;
 }
 .about-section .content-about-section {
-  margin: 20px;
+  margin: 48px 26px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
 }
+
 .about-section .content-about-section .heading-about-section {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -39,6 +45,7 @@
 }
 
 .content-about-section p {
+  /* margin-bottom: 50px; */
   color: #fff;
   font-size: 16px;
   font-style: normal;
@@ -47,13 +54,12 @@
   font-family: "Arial", sans-serif;
   font-weight: 400;
   line-height: 23px;
-  margin-bottom: 50px;
   letter-spacing: 0.14399999380111694px;
   text-transform: none;
 }
 
 .content-about-section button {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   max-width: 180px;
   background-color: #242424;
   color: #fff;

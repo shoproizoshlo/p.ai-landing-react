@@ -9,13 +9,15 @@ const AboutSection = ({
     <div className="about-section">
       <div className="line"></div>
       <div className="content-about-section">
-        <div className="heading-about-section">
-          <div>
-            <img src={imgAboutSection} alt="" />
+        <div>
+          <div className="heading-about-section">
+            <div>
+              <img src={imgAboutSection} alt="" />
+            </div>
+            <h4>{headingAboutSection}</h4>
           </div>
-          <h4>{headingAboutSection}</h4>
+          <p>{descriptionAboutSection}</p>
         </div>
-        <p>{descriptionAboutSection}</p>
         <button>View customer stories</button>
       </div>
     </div>

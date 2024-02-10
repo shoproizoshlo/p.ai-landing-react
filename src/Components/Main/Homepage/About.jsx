@@ -1,9 +1,11 @@
 import AboutSection from "./AboutSection";
+import Review from "./Review";
 
 import VolumeImg from "../../../assets/volume-about.svg";
 import EfficiencyImg from "../../../assets/efficiency-about.svg";
 import UpliftImg from "../../../assets/uplift-about.svg";
 import Plus from "../../../assets/plus.svg";
+import CompanyName from "../../../assets/company-review.svg";
 
 import "../../../styles/About.css";
 
@@ -38,6 +40,12 @@ const About = ({ headingAbout, imgAbout }) => {
           descriptionAboutSection="Prove incrementality using multi-cell lift tests, with holdouts. This is real performance."
         />
       </div>
+      <Review
+        companyName={CompanyName}
+        reviewText="This magical product actually works! P.ai has radically changed the way we build our audiences at Treatwell. Increasing new customer sales by 6x"
+        reviewerName="Albert Abello"
+        reviewerTitle="Director of Growth, Treatwell"
+      />
       <p>We’d love to give you a demo.</p>
       <button>Book a demo</button>
     </div>

@@ -30,11 +30,6 @@ body,
 #root {
   height: auto;
   width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 18px;
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

@@ -3,6 +3,7 @@ import AboutSection from "./AboutSection";
 import VolumeImg from "../../../assets/volume-about.svg";
 import EfficiencyImg from "../../../assets/efficiency-about.svg";
 import UpliftImg from "../../../assets/uplift-about.svg";
+import Plus from "../../../assets/plus.svg";
 
 import "../../../styles/About.css";
 
@@ -20,11 +21,17 @@ const About = ({ headingAbout, imgAbout }) => {
           headingAboutSection="Volume"
           descriptionAboutSection="Always-on, predictive acquisition and retention. Acquire new and repeat customers across any ad platform, at scale."
         />
+        <div className="plus-img">
+          <img src={Plus} alt="" />
+        </div>
         <AboutSection
           imgAboutSection={EfficiencyImg}
           headingAboutSection="Efficiency"
           descriptionAboutSection="Predictive Audiences that ensure you invest the optimal amount based on every customer’s predicted conversion and customer lifetime value. No waste."
         />
+        <div className="plus-img">
+          <img src={Plus} alt="" />
+        </div>
         <AboutSection
           imgAboutSection={UpliftImg}
           headingAboutSection="Uplift"

@@ -33,11 +33,25 @@
   letter-spacing: 0.8100000023841858px;
   text-transform: none;
 }
+
 .about .about-sections {
   display: flex;
   flex-direction: row;
   align-items: start;
 }
+
+.plus-img {
+  width: 35px;
+  height: 319px;
+  position: relative;
+}
+.plus-img img {
+  position: absolute;
+  left: -35%;
+  top: 40%;
+  z-index: 2;
+}
+
 .about > button {
   background-color: white;
   color: #000;

@@ -13,9 +13,18 @@
   /* margin-bottom: 50px; */
   width: 356px;
   height: 8px;
-  background-color: #39aaff;
   border-radius: 4px;
 }
+.about-section:nth-child(1) .line {
+  background-color: #39aaff;
+}
+.about-section:nth-child(3) .line {
+  background-color: #29d5d5;
+}
+.about-section:nth-child(5) .line {
+  background-color: #4e5eff;
+}
+
 .about-section .content-about-section {
   margin: 48px 26px;
   height: 100%;

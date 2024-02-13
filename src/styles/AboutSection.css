@@ -1,6 +1,7 @@
 .about-section {
   padding: 10px;
-  width: 386px;
+  max-width: 386px;
+  width: 32%;
   height: 319px;
   display: flex;
   flex-direction: column;
@@ -10,9 +11,10 @@
 }
 
 .about-section .line {
-  width: 356px;
+  width: 99%;
   height: 8px;
   border-radius: 4px;
+  z-index: 2;
 }
 .about-section:nth-child(1) .line {
   background-color: #39aaff;
@@ -80,4 +82,14 @@
   line-height: 23px;
   letter-spacing: 0.23399999737739563px;
   text-transform: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .about .about-sections {
+    width: 90%;
+  }
+
+  .about-section {
+    width: 290px;
+  }
 }

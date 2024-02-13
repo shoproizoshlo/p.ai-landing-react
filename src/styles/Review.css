@@ -32,6 +32,7 @@
 }
 .review > div > p:first-of-type {
   max-width: 842px;
+  position: relative;
   margin-bottom: 120px;
   color: #fff;
   font-size: 42px;
@@ -45,11 +46,11 @@
 }
 .review > div > p:first-of-type::before {
   position: absolute;
-  left: 10%;
+  left: -13%;
+  top: 25%;
   content: "\201c";
-  font-size: 2em;
+  font-size: 4em;
   color: #0d0d0d;
-  display: inline-block;
   margin-right: 0.1em;
   font-family: "Libre Franklin", sans-serif;
 }

@@ -55,15 +55,15 @@
   font-family: "Libre Franklin", sans-serif;
 }
 .review p::after {
-  content: ""; /* создаем пустой контент для псевдоэлемента */
-  display: inline; /* размещаем его в строчном контексте, чтобы изменить цвет последнего слова */
-  width: 100%; /* псевдоэлемент занимает всю ширину строки, чтобы быть на одной линии с последним словом */
-  height: 0; /* устанавливаем высоту в 0, чтобы не изменять размер текста */
+  content: "";
+  display: inline;
+  width: 100%;
+  height: 0;
 }
 
 .review p::after {
-  color: #0d0d0d; /* устанавливаем цвет последнего слова */
-  content: " " attr(data-last-word); /* заменяем пустой контент на значение атрибута data-last-word */
+  color: #0d0d0d;
+  content: " " attr(data-last-word);
 }
 
 .review > div > p:last-of-type {

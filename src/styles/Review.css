@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
 
+.review-container {
+  width: 100%;
+  background-color: #4e5eff;
+}
 .review {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  background-color: #4e5eff;
   color: white;
 }
 

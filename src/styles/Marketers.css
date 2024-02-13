@@ -1,9 +1,14 @@
-.marketers {
-  /* width: 100%; */
+.marketers-container {
   padding: 100px;
   background-color: black;
   text-align: center;
 }
+.marketers {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .marketers p {
   color: white;
 }

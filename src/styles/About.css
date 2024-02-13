@@ -6,7 +6,16 @@
   align-items: center;
 }
 
-.about > h3 {
+.about-heading {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-heading h3 {
   max-width: 777px;
   color: #fff;
   font-size: 58px;
@@ -21,7 +30,7 @@
   text-transform: none;
 }
 
-.about .about-sections {
+.about .about-heading .about-sections {
   margin-bottom: 100px;
   display: flex;
   flex-direction: row;
@@ -29,20 +38,22 @@
   justify-content: space-between;
 }
 
-.plus-img {
+.about-heading .plus-img {
   width: 20px;
   height: 319px;
   position: relative;
 }
-.plus-img img {
+.about-heading .plus-img img {
   position: absolute;
   left: -100%;
   top: 40%;
   z-index: 2;
 }
 
-.demo {
+.about .demo {
   margin-top: 100px;
+  max-width: 1280px;
+  width: 100%;
 }
 .about .demo p {
   color: #fff;

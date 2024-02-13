@@ -1,6 +1,9 @@
 .first-screen {
-  margin: 150px 0;
+  max-width: 1280px;
+  width: 100%;
+  margin: 150px auto;
 }
+
 .first-screen h1 {
   max-width: 550px;
 

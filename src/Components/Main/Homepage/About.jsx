@@ -16,7 +16,7 @@ const About = ({ headingAbout, imgAbout }) => {
       <div>
         <img src={imgAbout} alt="" />
       </div>
-      Components
+
       <div className="about-sections">
         <AboutSection
           imgAboutSection={VolumeImg}
@@ -46,8 +46,10 @@ const About = ({ headingAbout, imgAbout }) => {
         reviewerName="Albert Abello"
         reviewerTitle="Director of Growth, Treatwell"
       />
-      <p>We’d love to give you a demo.</p>
-      <button>Book a demo</button>
+      <div className="demo">
+        <p>We’d love to give you a demo.</p>
+        <button>Book a demo</button>
+      </div>
     </div>
   );
 };

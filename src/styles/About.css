@@ -20,19 +20,6 @@
   letter-spacing: 0.5580000281333923px;
   text-transform: none;
 }
-.about > p {
-  color: #fff;
-  font-size: 39px;
-  font-style: normal;
-  margin-top: 0;
-  text-align: center;
-  font-family: "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 57px;
-  margin-bottom: 0;
-  letter-spacing: 0.8100000023841858px;
-  text-transform: none;
-}
 
 .about .about-sections {
   margin-bottom: 100px;
@@ -53,7 +40,24 @@
   z-index: 2;
 }
 
-.about > button {
+.demo {
+  margin-top: 100px;
+}
+.about .demo p {
+  color: #fff;
+  font-size: 39px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 57px;
+  margin-bottom: 50px;
+  letter-spacing: 0.8100000023841858px;
+  text-transform: none;
+}
+
+.about .demo button {
   background-color: white;
   color: #000;
   font-size: 16px;
@@ -65,7 +69,7 @@
   text-transform: none;
   width: 100%;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
   display: block;
   max-width: 152px;
   height: 57px;

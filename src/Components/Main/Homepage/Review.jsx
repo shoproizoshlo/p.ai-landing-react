@@ -7,7 +7,10 @@ const Review = ({ companyName, reviewText, reviewerName, reviewerTitle }) => {
         <div className="company-name">
           <img src={companyName} alt="company name" />
         </div>
-        <p>{reviewText}</p>
+        <p data-last-word={reviewText.split(" ").pop()}>
+          {reviewText.replace(/\s+\S*$/, "")}
+        </p>
+
         <p>{reviewerName}</p>
         <p>{reviewerTitle}</p>
       </div>

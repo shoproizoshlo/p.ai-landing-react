@@ -34,6 +34,16 @@ const Footer = () => {
           <p>Data Processing Agreement</p>
         </div>
       </div>
+      <p>
+        Coded by{" "}
+        <a href="https://github.com/shoproizoshlo" target="blank">
+          Sue Brechko
+        </a>
+        . Design{" "}
+        <a href="https://t.me/figma2html/1695" target="blank">
+          @figma2html
+        </a>
+      </p>
     </footer>
   );
 };

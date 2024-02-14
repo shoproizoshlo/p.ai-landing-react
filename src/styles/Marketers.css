@@ -36,3 +36,9 @@
   top: 0;
   left: 0;
 }
+
+@media (min-width: 768px) {
+  .marketers-container {
+    padding: 100px 50px;
+  }
+}

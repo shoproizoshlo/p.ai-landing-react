@@ -93,3 +93,13 @@
     min-height: 450px;
   }
 }
+
+@media (min-width: 768px) {
+  .product-description h3 {
+    font-size: 48px;
+  }
+  .product-img {
+    flex: 0 0 48%;
+    min-height: 300px;
+  }
+}

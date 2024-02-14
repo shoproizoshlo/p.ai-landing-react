@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Navbar from "./Navbar";
-
+import Nav from "./Nav";
+import Logo from "../../assets/Logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -13,24 +13,22 @@ const Header = () => {
 
   return (
     <header>
+      <div>
+        <img src={Logo} alt="Logo" />
+      </div>
       {window.innerWidth < 1023 ? (
-        <div
-          className="header"
-          onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
-        >
+        <div onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}>
           {isMenuOpen ? (
             <div>
-              <FontAwesomeIcon icon="fa-solid fa-xmark" size="xl" />
-              <Navbar />
+              <FontAwesomeIcon icon="fa-solid fa-xmark" size="2xl" />
+              <Nav />
             </div>
           ) : (
-            <FontAwesomeIcon icon="fa-solid fa-bars" size="xl" />
+            <FontAwesomeIcon icon="fa-solid fa-bars" size="2xl" />
           )}
         </div>
       ) : (
-        <div className="header">
-          <Navbar />
-        </div>
+        <Nav />
       )}
     </header>
   );

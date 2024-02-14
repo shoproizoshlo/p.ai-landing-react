@@ -14,7 +14,10 @@ const About = ({ headingAbout, imgAbout }) => {
     <div className="about">
       <div className="about-heading">
         <h3>{headingAbout}</h3>
-        <div className="about-heading-img">
+        <div
+          className="about-heading-img"
+          style={{ display: window.innerWidth < 641 ? "none" : "block" }}
+        >
           <img src={imgAbout} alt="" />
         </div>
 

@@ -93,3 +93,13 @@
     height: 360px;
   }
 }
+
+@media (min-width: 768px) {
+  .about .about-sections {
+    width: 95%;
+  }
+
+  .about-section {
+    height: 450px;
+  }
+}

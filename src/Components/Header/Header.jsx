@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header>
-      {window.innerWidth < 767 ? (
+      {window.innerWidth < 1023 ? (
         <div
           className="header"
           onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}

@@ -16,7 +16,7 @@ const Header = () => {
       <div>
         <img src={Logo} alt="Logo" />
       </div>
-      {window.innerWidth < 1023 ? (
+      {window.innerWidth < 1022 ? (
         <div
           className="menu-icon"
           onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}

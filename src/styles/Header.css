@@ -18,3 +18,9 @@ header {
 header div:first-child {
   margin-right: 20px;
 }
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

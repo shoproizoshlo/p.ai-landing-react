@@ -17,12 +17,15 @@ const Header = () => {
         <img src={Logo} alt="Logo" />
       </div>
       {window.innerWidth < 1023 ? (
-        <div onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}>
+        <div
+          className="menu-icon"
+          onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
+        >
           {isMenuOpen ? (
-            <div>
+            <>
               <FontAwesomeIcon icon="fa-solid fa-xmark" size="2xl" />
               <Nav />
-            </div>
+            </>
           ) : (
             <FontAwesomeIcon icon="fa-solid fa-bars" size="2xl" />
           )}

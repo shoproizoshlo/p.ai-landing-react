@@ -87,3 +87,9 @@
     flex: 0 0 45%;
   }
 }
+@media (min-width: 1024px) {
+  .product-img {
+    flex: 0 0 50%;
+    min-height: 450px;
+  }
+}

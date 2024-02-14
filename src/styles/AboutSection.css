@@ -2,7 +2,7 @@
   padding: 10px;
   max-width: 386px;
   width: 32%;
-  height: 319px;
+  min-height: 319px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,12 +84,12 @@
   text-transform: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .about .about-sections {
     width: 90%;
   }
 
   .about-section {
-    width: 290px;
+    height: 360px;
   }
 }

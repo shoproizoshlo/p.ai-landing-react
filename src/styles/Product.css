@@ -81,3 +81,9 @@
   top: 0;
   left: 0;
 }
+
+@media (min-width: 1280px) {
+  .product-img {
+    flex: 0 0 45%;
+  }
+}

@@ -42,3 +42,8 @@
     padding: 100px 50px;
   }
 }
+@media (min-width: 640px) {
+  .marketers-container {
+    padding: 100px 40px;
+  }
+}

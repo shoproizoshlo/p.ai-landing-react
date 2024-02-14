@@ -34,3 +34,14 @@
 .footer-links li:last-child {
   margin-bottom: 0;
 }
+
+@media (min-width: 1024px) {
+  .footer-links {
+    flex: 0 0 35%;
+  }
+}
+@media (min-width: 1280px) {
+  .footer-links {
+    flex: 0 0 30%;
+  }
+}

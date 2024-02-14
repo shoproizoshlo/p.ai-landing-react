@@ -29,6 +29,21 @@
   letter-spacing: 0.5580000281333923px;
   text-transform: none;
 }
+.about-heading-img {
+  flex: 0 0 33.3333%;
+  min-height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+.about-heading-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
 .about .about-heading .about-sections {
   margin-bottom: 100px;
@@ -85,4 +100,10 @@
   display: block;
   max-width: 152px;
   height: 57px;
+}
+
+@media (min-width: 1024px) {
+  .about-heading-img {
+    margin: 0 15%;
+  }
 }

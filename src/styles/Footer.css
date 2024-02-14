@@ -57,3 +57,14 @@ footer > p {
   font-size: 10px;
   text-align: center;
 }
+
+@media (min-width: 1024px) {
+  footer > div div {
+    flex: 0 0 50%;
+  }
+}
+@media (min-width: 1280px) {
+  footer > div div {
+    flex: 0 0 40%;
+  }
+}

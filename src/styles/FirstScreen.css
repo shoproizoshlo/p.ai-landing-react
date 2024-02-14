@@ -1,33 +1,33 @@
 .first-screen {
   max-width: 1280px;
   width: 100%;
-  margin: 150px auto;
+  margin: 50px auto 120px auto;
+  padding: 0 20px;
 }
 
 .first-screen h1 {
   max-width: 550px;
-
   margin: 10px auto;
   color: #0d0d0d;
-  font-size: 55px;
+  font-size: 36px;
+  line-height: 44px;
   font-style: normal;
   text-align: center;
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  line-height: 62px;
   letter-spacing: 2.934000015258789px;
   text-transform: none;
 }
 
 .first-screen h2 {
+  margin-bottom: 50px;
   color: #7e5fff;
-  font-size: 55px;
+  font-size: 36px;
+  line-height: 44px;
   font-style: normal;
   text-align: center;
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  line-height: 62px;
-  margin-bottom: 50px;
   letter-spacing: 2.934000015258789px;
   text-transform: none;
 }
@@ -36,12 +36,62 @@
   max-width: 585px;
   margin: 10px auto;
   color: #0d0d0d;
-  font-size: 22px;
+  font-size: 18px;
+  line-height: 27px;
   font-style: normal;
   text-align: center;
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  line-height: 35px;
   letter-spacing: 0.7739999890327454px;
   text-transform: none;
+}
+
+@media (min-width: 640px) {
+  .first-screen {
+    max-width: 1280px;
+    width: 100%;
+    margin: 150px auto;
+    padding: 0 20px;
+  }
+
+  .first-screen h1 {
+    max-width: 550px;
+    margin: 10px auto;
+    color: #0d0d0d;
+    font-size: 55px;
+    font-style: normal;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 2.934000015258789px;
+    text-transform: none;
+  }
+
+  .first-screen h2 {
+    color: #7e5fff;
+    font-size: 55px;
+    font-style: normal;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 62px;
+    margin-bottom: 50px;
+    letter-spacing: 2.934000015258789px;
+    text-transform: none;
+  }
+
+  .first-screen p {
+    max-width: 585px;
+    margin: 10px auto;
+    color: #0d0d0d;
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.7739999890327454px;
+    text-transform: none;
+  }
 }

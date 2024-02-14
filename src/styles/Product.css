@@ -95,11 +95,29 @@
 }
 
 @media (min-width: 768px) {
+  .product-container {
+    padding: 150px 20px;
+  }
   .product-description h3 {
     font-size: 43px;
   }
   .product-img {
     flex: 0 0 48%;
     min-height: 300px;
+  }
+}
+
+@media (min-width: 640px) {
+  .product-container {
+    padding: 100px 20px;
+  }
+  .product {
+    flex-direction: column-reverse;
+  }
+  .product-img {
+    margin-bottom: 30px;
+  }
+  .product-img img {
+    position: relative;
   }
 }

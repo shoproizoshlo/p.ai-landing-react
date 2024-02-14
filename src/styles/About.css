@@ -102,7 +102,11 @@
   height: 57px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
+  .about-heading h3 {
+    max-width: 577px;
+    font-size: 48px;
+  }
   .about-heading-img {
     margin: 0 15%;
   }

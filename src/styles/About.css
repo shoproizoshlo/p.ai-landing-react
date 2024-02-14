@@ -110,4 +110,8 @@
   .about-heading-img {
     margin: 0 15%;
   }
+
+  .about .demo p {
+    font-size: 36px;
+  }
 }

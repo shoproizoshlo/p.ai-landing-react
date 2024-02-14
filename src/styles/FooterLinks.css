@@ -35,7 +35,7 @@
   margin-bottom: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .footer-links {
     flex: 0 0 35%;
   }

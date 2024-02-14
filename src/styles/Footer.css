@@ -58,7 +58,7 @@ footer > p {
   text-align: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   footer > div div {
     flex: 0 0 50%;
   }

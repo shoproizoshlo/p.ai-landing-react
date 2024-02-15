@@ -107,6 +107,9 @@
   max-width: 152px;
   height: 57px;
 }
+.about .demo button a {
+  color: #000;
+}
 
 @media (min-width: 1024px) {
   .about .about-heading .about-sections {

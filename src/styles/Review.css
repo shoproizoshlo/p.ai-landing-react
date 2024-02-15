@@ -15,7 +15,7 @@
 }
 
 .review > div {
-  margin: 200px;
+  margin: 100px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -24,7 +24,7 @@
 }
 .review > div > p {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   text-align: left;
   font-family: "Arial", sans-serif;
@@ -38,25 +38,16 @@
   max-width: 842px;
   position: relative;
   color: #fff;
-  font-size: 42px;
+  font-size: 18px;
+  line-height: 27px;
   font-style: normal;
   text-align: left;
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  line-height: 52px;
   letter-spacing: 0.8100000023841858px;
   text-transform: none;
 }
-.review > div > p:first-of-type::before {
-  position: absolute;
-  left: -13%;
-  top: 25%;
-  content: "\201c";
-  font-size: 4em;
-  color: #0d0d0d;
-  margin-right: 0.1em;
-  font-family: "Libre Franklin", sans-serif;
-}
+
 .review p::after {
   content: "";
   display: inline;
@@ -85,7 +76,7 @@
 
 .review > div .company-name {
   flex: 0 0 33.3333%;
-  min-height: 32px;
+  min-height: 20px;
   overflow: hidden;
   position: relative;
 }
@@ -100,15 +91,80 @@
   left: 0;
 }
 
+@media (min-width: 640px) {
+  .review > div .company-name {
+    flex: 0 0 33.3333%;
+    min-height: 32px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .review > div > p {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.16200000047683716px;
+    text-transform: none;
+  }
+
+  .review > div > p:first-of-type {
+    margin-bottom: 120px;
+    max-width: 842px;
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.8100000023841858px;
+    text-transform: none;
+  }
+}
+
 @media (min-width: 768px) {
   .review > div {
-    margin: 100px 150px;
+    margin: 100px 50px 100px 120px;
+    display: flex;
+    flex-direction: column;
   }
+
   .review > div > p:first-of-type {
-    margin-bottom: 70px;
+    margin-bottom: 120px;
+    max-width: 842px;
+    position: relative;
+    color: #fff;
+    font-size: 42px;
+    font-style: normal;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0.8100000023841858px;
+    text-transform: none;
   }
+
   .review > div > p:first-of-type::before {
-    left: -20%;
-    top: 15%;
+    position: absolute;
+    left: -13%;
+    top: 25%;
+    content: "\201c";
+    font-size: 4em;
+    color: #0d0d0d;
+    margin-right: 0.1em;
+    font-family: "Libre Franklin", sans-serif;
+  }
+}
+
+@media (min-width: 1024px) {
+  .review > div {
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
   }
 }

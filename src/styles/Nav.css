@@ -42,3 +42,22 @@
     line-height: 65px;
   }
 }
+
+.nav ul li::after {
+  display: flex;
+  cursor: pointer;
+  content: "";
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  /* bottom: 0; */
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.nav ul li:hover::after,
+.nav ul li:active::after {
+  width: 100%;
+}

@@ -61,6 +61,27 @@ footer .policy p {
   letter-spacing: 0.16200000047683716px;
   text-transform: none;
 }
+footer .policy p a {
+  color: #0d0d0d;
+}
+footer .policy p::after {
+  display: flex;
+  cursor: pointer;
+  content: "";
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  /* bottom: 0; */
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s ease;
+}
+
+footer .policy p:hover::after,
+footer .policy p:active::after {
+  width: 100%;
+}
 
 footer > p {
   margin-top: 30px;

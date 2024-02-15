@@ -46,8 +46,12 @@ const Footer = () => {
       <div className="policy">
         <p>Programmai Ltd. © 2022. All Rights Reserved.</p>
         <div>
-          <p>Privacy Policy</p>
-          <p>Data Processing Agreement</p>
+          <p>
+            <a href="/">Privacy Policy</a>
+          </p>
+          <p>
+            <a href="/">Data Processing Agreement</a>
+          </p>
         </div>
       </div>
       <p>

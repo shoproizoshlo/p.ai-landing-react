@@ -53,7 +53,7 @@
 }
 
 .product-description a {
-  background-color: white;
+  /* background-color: white; */
   max-width: 89px;
   color: #0d0d0d;
   font-size: 16px;
@@ -63,6 +63,25 @@
   line-height: 23px;
   letter-spacing: 0.23399999737739563px;
   text-transform: none;
+}
+
+.product-description a::after {
+  display: flex;
+  cursor: pointer;
+  content: "";
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  /* bottom: 0; */
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s ease;
+}
+
+.product-description a:hover::after,
+.product-description a:active::after {
+  width: 100%;
 }
 
 .product-img {

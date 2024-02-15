@@ -32,11 +32,32 @@
   text-transform: none;
 }
 
-.footer-links li {
+.footer-links ul li {
   margin-bottom: 5px;
 }
-.footer-links li:last-child {
+.footer-links ul li:last-child {
   margin-bottom: 0;
+}
+.footer-links ul li a {
+  color: #0d0d0d;
+}
+.footer-links ul li::after {
+  display: flex;
+  cursor: pointer;
+  content: "";
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  /* bottom: 0; */
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s ease;
+}
+
+.footer-links ul li:hover::after,
+.footer-links ul li:active::after {
+  width: 100%;
 }
 
 @media (min-width: 768px) {

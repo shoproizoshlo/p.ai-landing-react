@@ -12,18 +12,34 @@ const Footer = () => {
         </div>
         <div>
           <FooterLinks footerLinksTitle="Product">
-            <li>Overview</li>
-            <li>Customers</li>
+            <li>
+              <a href="/">Overview</a>
+            </li>
+            <li>
+              <a href="/">Customers</a>
+            </li>
           </FooterLinks>
           <FooterLinks footerLinksTitle="Company">
-            <li>About Us</li>
-            <li>Support</li>
-            <li>Contact</li>
+            <li>
+              <a href="/">About Us</a>
+            </li>
+            <li>
+              <a href="/">Support</a>
+            </li>
+            <li>
+              <a href="/">Contact</a>
+            </li>
           </FooterLinks>
           <FooterLinks footerLinksTitle="Social">
-            <li>Blog</li>
-            <li>Twitter</li>
-            <li>LinkedIn</li>
+            <li>
+              <a href="/">Blog</a>
+            </li>
+            <li>
+              <a href="/">Twitter</a>
+            </li>
+            <li>
+              <a href="/">LinkedIn</a>
+            </li>
           </FooterLinks>
         </div>
       </div>

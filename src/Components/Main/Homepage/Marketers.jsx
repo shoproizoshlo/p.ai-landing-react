@@ -23,7 +23,9 @@ const Marketers = () => {
             <img src={Thg} alt="THG logo" />
           </div>
         </div>
-        <p>Read success stories</p>
+        <p>
+          <a href="/">Read success stories</a>
+        </p>
       </div>
     </div>
   );

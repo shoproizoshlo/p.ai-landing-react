@@ -11,8 +11,7 @@
   align-items: center;
 }
 
-.product-container:nth-child(2),
-.product-container:nth-child(2) button {
+.product-container:nth-child(2) {
   background-color: #f3f3f3;
 }
 
@@ -53,7 +52,7 @@
   text-transform: none;
 }
 
-.product-description button {
+.product-description a {
   background-color: white;
   max-width: 89px;
   color: #0d0d0d;

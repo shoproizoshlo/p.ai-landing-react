@@ -50,7 +50,9 @@ const About = ({ headingAbout, imgAbout }) => {
       />
       <div className="demo">
         <p>We’d love to give you a demo.</p>
-        <button>Book a demo</button>
+        <button>
+          <a href="/">Book a demo</a>
+        </button>
       </div>
     </div>
   );

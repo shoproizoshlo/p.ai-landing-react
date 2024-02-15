@@ -4,11 +4,21 @@ const Nav = () => {
   return (
     <div className="nav">
       <ul>
-        <li>Product</li>
-        <li>Customers</li>
-        <li>About</li>
-        <li>Blog</li>
-        <li>Login</li>
+        <li>
+          <a href="/">Product</a>
+        </li>
+        <li>
+          <a href="/">Customers</a>
+        </li>
+        <li>
+          <a href="/">About</a>
+        </li>
+        <li>
+          <a href="/">Blog</a>
+        </li>
+        <li>
+          <a href="/">Login</a>
+        </li>
       </ul>
     </div>
   );

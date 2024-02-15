@@ -129,6 +129,7 @@ p::after {
 ### Continued development
 
 - Fix navbar to avoid page reloading to see correct style of the navigation menu
+- A component for demonstration links so as not to mislead users
 - Add Tailwind
 
 ### Useful resources

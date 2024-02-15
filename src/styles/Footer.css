@@ -2,23 +2,25 @@ footer {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
 }
 footer > div {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 footer > div div {
   flex: 0 0 40%;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
 }
+
 .logo {
   overflow: hidden;
   position: relative;
@@ -28,7 +30,7 @@ footer > div div {
   height: 41px;
   object-fit: contain;
   object-position: left;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
 }
@@ -36,20 +38,28 @@ footer > div div {
 footer .policy {
   margin-bottom: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 footer .policy div {
+  margin-top: 10px;
   flex: 1;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
 }
 
 footer .policy p {
-  margin-right: 20px;
-}
-footer .policy p:last-child {
   margin-right: 0;
+  color: #0d0d0d;
+  font-size: 10px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 0;
+  letter-spacing: 0.16200000047683716px;
+  text-transform: none;
 }
 
 footer > p {
@@ -57,10 +67,71 @@ footer > p {
   font-size: 10px;
   text-align: center;
 }
+@media (min-width: 640px) {
+  footer > div {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-@media (min-width: 768px) {
   footer > div div {
     flex: 0 0 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 41px;
+    object-fit: contain;
+    object-position: left;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  footer .policy {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  footer .policy div {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  footer .policy p {
+    margin-right: 20px;
+    color: #0d0d0d;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 0;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 0;
+    letter-spacing: 0.16200000047683716px;
+    text-transform: none;
+  }
+  footer .policy p:last-child {
+    margin-right: 0;
   }
 }
 @media (min-width: 1280px) {

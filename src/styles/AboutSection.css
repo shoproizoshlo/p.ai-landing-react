@@ -68,7 +68,7 @@
   text-transform: none;
 }
 
-.content-about-section button {
+.content-about-section a {
   /* margin-bottom: 20px; */
   max-width: 180px;
   background-color: #242424;
@@ -82,6 +82,24 @@
   line-height: 23px;
   letter-spacing: 0.23399999737739563px;
   text-transform: none;
+}
+.content-about-section a::after {
+  display: flex;
+  cursor: pointer;
+  content: "";
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  /* bottom: 0; */
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.5s ease;
+}
+
+.content-about-section:hover a::after,
+.content-about-section:active a::after {
+  width: 100%;
 }
 
 @media (min-width: 640px) {

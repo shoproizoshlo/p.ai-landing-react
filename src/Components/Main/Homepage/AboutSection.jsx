@@ -18,7 +18,7 @@ const AboutSection = ({
           </div>
           <p>{descriptionAboutSection}</p>
         </div>
-        <button>View customer stories</button>
+        <a href="/">View customer stories</a>
       </div>
     </div>
   );

@@ -77,21 +77,3 @@ body,
   display: flex;
   flex-direction: column;
 }
-
-a::after {
-  cursor: pointer;
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -10px;
-  width: 0;
-  height: 2px;
-  background-color: green;
-  transition: width 0.3s ease;
-}
-
-a:hover::after,
-a:active::after {
-  width: 50%;
-}

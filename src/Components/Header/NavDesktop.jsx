@@ -2,7 +2,7 @@ import "../../styles/NavDesktop.css";
 
 const NavDesktop = ({ openModal, closeModal }) => {
   return (
-    <div className="nav">
+    <div className="nav-desktop">
       <ul>
         <li onClick={openModal}>
           <a>Product</a>

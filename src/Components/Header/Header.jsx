@@ -19,6 +19,7 @@ const Header = ({ openModal, closeModal }) => {
       </div>
 
       <NavMobile openModal={openModal} closeModal={closeModal} />
+      <NavDesktop openModal={openModal} closeModal={closeModal} />
       {/* {window.innerWidth < 1022 ? (
         <div
           className="menu-icon"

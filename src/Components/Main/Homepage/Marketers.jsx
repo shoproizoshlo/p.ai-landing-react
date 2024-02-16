@@ -4,7 +4,7 @@ import Mindfulchef from "../../../assets/mindfulchef-logo.svg";
 import Thg from "../../../assets/thg-logo.svg";
 import "../../../styles/Marketers.css";
 
-const Marketers = () => {
+const Marketers = ({ openModal, closeModal }) => {
   return (
     <div className="marketers-container">
       <div className="marketers">
@@ -24,7 +24,7 @@ const Marketers = () => {
           </div>
         </div>
         <p>
-          <a href="/">Read success stories</a>
+          <a onClick={openModal}>Read success stories</a>
         </p>
       </div>
     </div>

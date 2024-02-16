@@ -6,8 +6,9 @@ const Modal = ({ isOpen, onClose }) => {
     isOpen && (
       <div className="modal-overlay" onClick={onClose}>
         <div className="modal" onClick={(e) => e.stopPropagation()}>
-          <p>Это только пример сайта</p>
-          <button onClick={onClose}>Закрыть</button>
+          <p>Sorry!</p>
+          <p>This is just a sample website.</p>
+          <button onClick={onClose}>Close</button>
         </div>
       </div>
     )

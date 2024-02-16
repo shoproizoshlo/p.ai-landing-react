@@ -11,12 +11,21 @@
 }
 
 .modal {
+  padding: 30px;
   background: white;
-  padding: 20px;
   border-radius: 10px;
   text-align: center;
 }
 
 .modal button {
   margin-top: 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.modal button:hover,
+.modal button:active {
+  cursor: pointer;
 }

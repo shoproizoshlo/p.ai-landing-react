@@ -56,8 +56,8 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
       />
       <div className="demo">
         <p>We’d love to give you a demo.</p>
-        <button>
-          <a href="/">Book a demo</a>
+        <button type="button" onClick={openModal}>
+          Book a demo
         </button>
       </div>
     </div>

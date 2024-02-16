@@ -5,19 +5,19 @@ const Nav = ({ openModal, closeModal }) => {
     <div className="nav">
       <ul>
         <li onClick={openModal}>
-          <a href="/">Product</a>
+          <a href="#">Product</a>
         </li>
         <li onClick={openModal}>
-          <a href="/">Customers</a>
+          <a href="#">Customers</a>
         </li>
         <li onClick={openModal}>
-          <a href="/">About</a>
+          <a href="#">About</a>
         </li>
         <li onClick={openModal}>
-          <a href="/">Blog</a>
+          <a href="#">Blog</a>
         </li>
         <li onClick={openModal}>
-          <a href="/">Login</a>
+          <a href="#">Login</a>
         </li>
       </ul>
     </div>

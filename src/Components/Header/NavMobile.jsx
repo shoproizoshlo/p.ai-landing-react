@@ -15,16 +15,13 @@ const NavMobile = ({ openModal }) => {
         className="menu-icon"
         onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
       >
-        {isMenuOpen ? (
-          <FontAwesomeIcon icon="fa-solid fa-xmark" size="2xl" />
-        ) : (
-          <FontAwesomeIcon icon="fa-solid fa-bars" size="2xl" />
-        )}
+        <FontAwesomeIcon
+          icon={isMenuOpen ? ["fas", "times"] : ["fas", "bars"]}
+          size="2x"
+          className={`menu-icon${isMenuOpen ? " open" : ""}`}
+        />
       </div>
-      <div
-        className="nav-mobile"
-        style={{ display: isMenuOpen ? "flex" : "none" }}
-      >
+      <div className={`nav-mobile${isMenuOpen ? " open" : ""}`}>
         {isMenuOpen ? (
           <ul>
             <li onClick={openModal}>

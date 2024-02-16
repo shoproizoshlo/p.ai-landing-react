@@ -78,3 +78,31 @@
 .nav-mobile ul li a:active {
   color: #0d0d0d;
 }
+
+.menu-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-icon.open {
+  transform: rotate(90deg);
+}
+
+.nav-mobile {
+  display: none;
+  transition: transform 0.3s ease-in-out;
+  animation: slideFromRightToLeft 0.3s ease-in-out;
+}
+
+.nav-mobile.open {
+  display: flex;
+}
+
+@keyframes slideFromRightToLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

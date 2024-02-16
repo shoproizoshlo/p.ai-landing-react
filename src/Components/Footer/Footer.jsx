@@ -3,7 +3,7 @@ import Logo from "../../assets/Logo.svg";
 
 import "../../styles/Footer.css";
 
-const Footer = () => {
+const Footer = ({ openModal, closeModal }) => {
   return (
     <footer>
       <div>
@@ -11,34 +11,46 @@ const Footer = () => {
           <img src={Logo} alt="" />
         </div>
         <div>
-          <FooterLinks footerLinksTitle="Product">
+          <FooterLinks
+            footerLinksTitle="Product"
+            openModal={openModal}
+            closeModal={closeModal}
+          >
             <li>
-              <a href="/">Overview</a>
+              <a onClick={openModal}>Overview</a>
             </li>
             <li>
-              <a href="/">Customers</a>
-            </li>
-          </FooterLinks>
-          <FooterLinks footerLinksTitle="Company">
-            <li>
-              <a href="/">About Us</a>
-            </li>
-            <li>
-              <a href="/">Support</a>
-            </li>
-            <li>
-              <a href="/">Contact</a>
+              <a onClick={openModal}>Customers</a>
             </li>
           </FooterLinks>
-          <FooterLinks footerLinksTitle="Social">
+          <FooterLinks
+            footerLinksTitle="Company"
+            openModal={openModal}
+            closeModal={closeModal}
+          >
             <li>
-              <a href="/">Blog</a>
+              <a onClick={openModal}>About Us</a>
             </li>
             <li>
-              <a href="/">Twitter</a>
+              <a onClick={openModal}>Support</a>
             </li>
             <li>
-              <a href="/">LinkedIn</a>
+              <a onClick={openModal}>Contact</a>
+            </li>
+          </FooterLinks>
+          <FooterLinks
+            footerLinksTitle="Social"
+            openModal={openModal}
+            closeModal={closeModal}
+          >
+            <li>
+              <a onClick={openModal}>Blog</a>
+            </li>
+            <li>
+              <a onClick={openModal}>Twitter</a>
+            </li>
+            <li>
+              <a onClick={openModal}>LinkedIn</a>
             </li>
           </FooterLinks>
         </div>
@@ -47,10 +59,10 @@ const Footer = () => {
         <p>Programmai Ltd. © 2022. All Rights Reserved.</p>
         <div>
           <p>
-            <a href="/">Privacy Policy</a>
+            <a onClick={openModal}>Privacy Policy</a>
           </p>
           <p>
-            <a href="/">Data Processing Agreement</a>
+            <a onClick={openModal}>Data Processing Agreement</a>
           </p>
         </div>
       </div>

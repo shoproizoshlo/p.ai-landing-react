@@ -52,8 +52,10 @@ a,
 a:visited {
   text-decoration: none;
 }
-a:hover {
+a:hover,
+a:active {
   text-decoration: none;
+  cursor: pointer;
 }
 ul li {
   list-style: none;

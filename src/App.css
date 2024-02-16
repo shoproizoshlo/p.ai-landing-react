@@ -8,3 +8,8 @@ main {
   margin-top: 50px;
   flex: 1 1 auto;
 }
+@media (min-width: 1024px) {
+  main {
+    margin-top: 0;
+  }
+}

@@ -8,7 +8,7 @@
 }
 
 .menu-mobile {
-  padding: 100px 20px;
+  padding: 100px 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -20,6 +20,11 @@
   background-color: white;
   z-index: 4;
   transition: all 0.3s ease;
+}
+@media (min-width: 640px) {
+  .menu-mobile {
+    padding: 100px 70px;
+  }
 }
 
 .menu-mobile ul {

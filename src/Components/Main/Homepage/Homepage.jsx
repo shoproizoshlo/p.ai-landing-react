@@ -24,16 +24,22 @@ const Homepage = ({ openModal, closeModal }) => {
           heading3="Predict every customer’s future."
           productDescription="Accurately predict short and long-term customer outcomes and take action with forward-looking data."
           productImg={Predict}
+          openModal={openModal}
+          closeModal={closeModal}
         />
         <Product
           heading3="Determine how predictive audiences get built."
           productDescription="Use a combination of predictions to build your predictive audiences most suited to the task at hand; acquiring high-value customers or driving repeat customer conversions."
           productImg={Determine}
+          openModal={openModal}
+          closeModal={closeModal}
         />
         <Product
           heading3="Activate your predictive audiences anywhere."
           productDescription="Sync to any marketing channel for targeting, or run multi-cell holdout experiments to prove lift."
           productImg={Activate}
+          openModal={openModal}
+          closeModal={closeModal}
         />
       </div>
       <About

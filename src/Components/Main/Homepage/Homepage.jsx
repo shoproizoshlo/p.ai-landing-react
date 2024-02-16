@@ -45,6 +45,8 @@ const Homepage = ({ openModal, closeModal }) => {
       <About
         headingAbout="Volume, uplift and efficiency. No trade-offs."
         imgAbout={ImgAbout}
+        openModal={openModal}
+        closeModal={closeModal}
       />
     </div>
   );

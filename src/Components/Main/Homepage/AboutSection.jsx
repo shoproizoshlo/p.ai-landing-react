@@ -4,6 +4,8 @@ const AboutSection = ({
   imgAboutSection,
   headingAboutSection,
   descriptionAboutSection,
+  openModal,
+  closeModal,
 }) => {
   return (
     <div className="about-section">
@@ -18,7 +20,7 @@ const AboutSection = ({
           </div>
           <p>{descriptionAboutSection}</p>
         </div>
-        <a href="/">View customer stories</a>
+        <a onClick={openModal}>View customer stories</a>
       </div>
     </div>
   );

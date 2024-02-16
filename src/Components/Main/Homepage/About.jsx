@@ -9,7 +9,7 @@ import CompanyName from "../../../assets/company-review.svg";
 
 import "../../../styles/About.css";
 
-const About = ({ headingAbout, imgAbout }) => {
+const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
   return (
     <div className="about">
       <div className="about-heading">
@@ -21,6 +21,8 @@ const About = ({ headingAbout, imgAbout }) => {
         <div className="about-sections">
           <AboutSection
             imgAboutSection={VolumeImg}
+            openModal={openModal}
+            closeModal={closeModal}
             headingAboutSection="Volume"
             descriptionAboutSection="Always-on, predictive acquisition and retention. Acquire new and repeat customers across any ad platform, at scale."
           />
@@ -29,6 +31,8 @@ const About = ({ headingAbout, imgAbout }) => {
           </div>
           <AboutSection
             imgAboutSection={EfficiencyImg}
+            openModal={openModal}
+            closeModal={closeModal}
             headingAboutSection="Efficiency"
             descriptionAboutSection="Predictive Audiences that ensure you invest the optimal amount based on every customer’s predicted conversion and customer lifetime value. No waste."
           />
@@ -37,6 +41,8 @@ const About = ({ headingAbout, imgAbout }) => {
           </div>
           <AboutSection
             imgAboutSection={UpliftImg}
+            openModal={openModal}
+            closeModal={closeModal}
             headingAboutSection="Uplift"
             descriptionAboutSection="Prove incrementality using multi-cell lift tests, with holdouts. This is real performance."
           />

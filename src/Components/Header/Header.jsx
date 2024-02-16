@@ -8,7 +8,7 @@ library.add(fas);
 
 import "../../styles/Header.css";
 
-const Header = () => {
+const Header = ({ openModal, closeModal }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -24,14 +24,14 @@ const Header = () => {
           {isMenuOpen ? (
             <>
               <FontAwesomeIcon icon="fa-solid fa-xmark" size="2xl" />
-              <Nav />
+              <Nav openModal={openModal} closeModal={closeModal} />
             </>
           ) : (
             <FontAwesomeIcon icon="fa-solid fa-bars" size="2xl" />
           )}
         </div>
       ) : (
-        <Nav />
+        <Nav openModal={openModal} closeModal={closeModal} />
       )}
     </header>
   );

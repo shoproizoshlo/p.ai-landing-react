@@ -1,22 +1,22 @@
 import "../../styles/Nav.css";
 
-const Nav = () => {
+const Nav = ({ openModal, closeModal }) => {
   return (
     <div className="nav">
       <ul>
-        <li>
+        <li onClick={openModal}>
           <a href="/">Product</a>
         </li>
-        <li>
+        <li onClick={openModal}>
           <a href="/">Customers</a>
         </li>
-        <li>
+        <li onClick={openModal}>
           <a href="/">About</a>
         </li>
-        <li>
+        <li onClick={openModal}>
           <a href="/">Blog</a>
         </li>
-        <li>
+        <li onClick={openModal}>
           <a href="/">Login</a>
         </li>
       </ul>

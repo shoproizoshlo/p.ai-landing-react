@@ -10,7 +10,7 @@ import ImgAbout from "../../../assets/about.svg";
 
 import "../../../styles/Homepage.css";
 
-const Homepage = () => {
+const Homepage = ({ openModal, closeModal }) => {
   return (
     <div className="homepage">
       <FirstScreen

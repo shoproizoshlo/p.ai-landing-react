@@ -1,9 +1,9 @@
 import Homepage from "./Homepage/Homepage";
 
-const Main = () => {
+const Main = ({ openModal, closeModal }) => {
   return (
     <main>
-      <Homepage />
+      <Homepage openModal={openModal} closeModal={closeModal} />
     </main>
   );
 };

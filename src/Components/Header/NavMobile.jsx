@@ -10,7 +10,7 @@ const NavMobile = ({ openModal }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <>
+    <div className="nav-mobile">
       <div
         className="menu-icon"
         onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
@@ -21,7 +21,7 @@ const NavMobile = ({ openModal }) => {
           className={`menu-icon${isMenuOpen ? " open" : ""}`}
         />
       </div>
-      <div className={`nav-mobile${isMenuOpen ? " open" : ""}`}>
+      <div className={`menu-mobile${isMenuOpen ? " open" : ""}`}>
         {isMenuOpen ? (
           <ul>
             <li onClick={openModal}>
@@ -44,7 +44,7 @@ const NavMobile = ({ openModal }) => {
           ""
         )}
       </div>
-    </>
+    </div>
   );
 };
 

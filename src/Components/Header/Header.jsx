@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Nav from "./Nav";
+import NavDesktop from "./NavDesktop";
+import NavMobile from "./NavMobile";
 import Logo from "../../assets/Logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -24,14 +25,14 @@ const Header = ({ openModal, closeModal }) => {
           {isMenuOpen ? (
             <>
               <FontAwesomeIcon icon="fa-solid fa-xmark" size="2xl" />
-              <Nav openModal={openModal} closeModal={closeModal} />
+              <NavMobile openModal={openModal} closeModal={closeModal} />
             </>
           ) : (
             <FontAwesomeIcon icon="fa-solid fa-bars" size="2xl" />
           )}
         </div>
       ) : (
-        <Nav openModal={openModal} closeModal={closeModal} />
+        <NavDesktop openModal={openModal} closeModal={closeModal} />
       )}
     </header>
   );

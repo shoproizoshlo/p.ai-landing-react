@@ -1,6 +1,6 @@
-import "../../styles/Nav.css";
+import "../../styles/NavDesktop.css";
 
-const Nav = ({ openModal, closeModal }) => {
+const NavDesktop = ({ openModal, closeModal }) => {
   return (
     <div className="nav">
       <ul>
@@ -24,4 +24,4 @@ const Nav = ({ openModal, closeModal }) => {
   );
 };
 
-export default Nav;
+export default NavDesktop;

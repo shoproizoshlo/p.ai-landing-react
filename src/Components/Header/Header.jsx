@@ -17,7 +17,9 @@ const Header = ({ openModal, closeModal }) => {
       <div>
         <img src={Logo} alt="Logo" />
       </div>
-      {window.innerWidth < 1022 ? (
+
+      <NavMobile openModal={openModal} closeModal={closeModal} />
+      {/* {window.innerWidth < 1022 ? (
         <div
           className="menu-icon"
           onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
@@ -33,7 +35,7 @@ const Header = ({ openModal, closeModal }) => {
         </div>
       ) : (
         <NavDesktop openModal={openModal} closeModal={closeModal} />
-      )}
+      )} */}
     </header>
   );
 };

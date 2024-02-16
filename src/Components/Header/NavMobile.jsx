@@ -10,7 +10,7 @@ const NavMobile = ({ openModal }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="nav-mobile">
+    <>
       <div
         className="menu-icon"
         onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
@@ -21,28 +21,33 @@ const NavMobile = ({ openModal }) => {
           <FontAwesomeIcon icon="fa-solid fa-bars" size="2xl" />
         )}
       </div>
-      {isMenuOpen ? (
-        <ul>
-          <li onClick={openModal}>
-            <a>Product</a>
-          </li>
-          <li onClick={openModal}>
-            <a>Customers</a>
-          </li>
-          <li onClick={openModal}>
-            <a>About</a>
-          </li>
-          <li onClick={openModal}>
-            <a>Blog</a>
-          </li>
-          <li onClick={openModal}>
-            <a>Login</a>
-          </li>
-        </ul>
-      ) : (
-        ""
-      )}
-    </div>
+      <div
+        className="nav-mobile"
+        style={{ display: isMenuOpen ? "flex" : "none" }}
+      >
+        {isMenuOpen ? (
+          <ul>
+            <li onClick={openModal}>
+              <a>Product</a>
+            </li>
+            <li onClick={openModal}>
+              <a>Customers</a>
+            </li>
+            <li onClick={openModal}>
+              <a>About</a>
+            </li>
+            <li onClick={openModal}>
+              <a>Blog</a>
+            </li>
+            <li onClick={openModal}>
+              <a>Login</a>
+            </li>
+          </ul>
+        ) : (
+          ""
+        )}
+      </div>
+    </>
   );
 };
 

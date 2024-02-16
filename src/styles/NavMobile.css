@@ -10,6 +10,51 @@
   flex-direction: row;
   justify-content: space-between;
 } */
+
+/* .nav-mobile ul li::after {
+  display: flex;
+  cursor: pointer;
+  content: "";
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.5s ease;
+}
+
+.nav-mobile ul li:hover::after,
+.nav-mobile ul li:active::after {
+  width: 100%;
+} */
+/* body {
+  overflow: hidden;
+} */
+.nav-mobile {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: wheat;
+  z-index: 4;
+  transition: all 0.3s ease;
+}
+
+.nav-mobile ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-size: 30px;
+  line-height: 65px;
+}
+
 .nav-mobile ul li {
   margin-bottom: 20px;
   list-style: none;
@@ -32,47 +77,4 @@
 .nav-mobile ul li a:visited,
 .nav-mobile ul li a:active {
   color: #0d0d0d;
-}
-
-/* .nav-mobile ul li::after {
-  display: flex;
-  cursor: pointer;
-  content: "";
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 2px;
-  background-color: black;
-  transition: width 0.5s ease;
-}
-
-.nav-mobile ul li:hover::after,
-.nav-mobile ul li:active::after {
-  width: 100%;
-} */
-
-@media (max-width: 1022px) {
-  .nav-mobile {
-    padding: 130px 50px;
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: wheat;
-    z-index: 3;
-    transition: all 0.3s ease;
-  }
-
-  .nav-mobile ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    font-size: 30px;
-    line-height: 65px;
-  }
 }

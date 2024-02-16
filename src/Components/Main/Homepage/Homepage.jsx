@@ -8,8 +8,6 @@ import Determine from "../../../assets/determine.svg";
 import Activate from "../../../assets/activate.svg";
 import ImgAbout from "../../../assets/about.svg";
 
-import "../../../styles/Homepage.css";
-
 const Homepage = ({ openModal, closeModal }) => {
   return (
     <div className="homepage">

@@ -1,10 +1,10 @@
 footer {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 40px 20px;
-  display: flex;
-  flex-direction: column;
+  /* max-width: 1280px; */
+  /* width: 100%; */
+  /* margin: 0 auto; */
+  /* padding: 40px 20px; */
+  /* display: flex;
+  flex-direction: column; */
 }
 footer > div {
   margin-bottom: 50px;
@@ -90,10 +90,10 @@ footer > p {
 }
 @media (min-width: 640px) {
   footer > div {
-    margin-bottom: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* margin-bottom: 80px; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
   }
 
   footer > div div {
@@ -107,12 +107,7 @@ footer > p {
 
 @media (min-width: 768px) {
   footer {
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 80px 20px;
-    display: flex;
-    flex-direction: column;
+    /* padding: 80px 20px; */
   }
 
   .logo img {

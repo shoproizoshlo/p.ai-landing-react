@@ -59,15 +59,15 @@
 }
 
 .plus-img {
-  height: 60px;
-  width: auto;
-  position: relative;
+  /* height: 60px; */
+  /* width: auto; */
+  /* position: relative; */
 }
 .plus-img img {
-  position: absolute;
-  left: -25px;
-  top: 0;
-  z-index: 2;
+  /* position: relative; */
+  /* left: 0;
+  top: 0; */
+  /* z-index: 2; */
 }
 
 .about .demo {
@@ -130,12 +130,14 @@
     /* align-items: start; */
   }
   .plus-img {
-    width: 20px;
-    height: 319px;
+    /* height: 319px; */
+    /* width: 50px; */
   }
   .plus-img img {
-    left: -100%;
-    top: 40%;
+    /* left: 0; */
+    /* top: 50%; */
+    /* width: 100%; */
+    /* height: auto; */
   }
 
   .about .about-heading .about-heading-img {

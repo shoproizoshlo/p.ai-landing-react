@@ -11,8 +11,8 @@ import "../../../styles/About.css";
 
 const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
   return (
-    <div className="pt-24 pb-24 flex flex-col items-center bg-black about">
-      <div className="about-heading">
+    <div className="py-24 flex flex-col items-center bg-black about">
+      <div className="max-w-7xl w-full my-0 mx-auto pt-0 pb-0 ps-5 pe-5 flex flex-col items-center about-heading">
         <h3>{headingAbout}</h3>
         <div className="about-heading-img">
           <img src={imgAbout} alt="" />

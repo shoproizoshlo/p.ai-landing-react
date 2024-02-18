@@ -7,26 +7,26 @@
 }
 
 .about .about-heading {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* max-width: 1280px; */
+  /* width: 100%; */
+  /* margin: 0 auto; */
+  /* padding: 0 20px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
 }
 
 .about .about-heading h3 {
+  margin-top: 0;
+  margin-bottom: 0;
   max-width: 777px;
   color: #fff;
   font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
   font-style: normal;
-  margin-top: 0;
   text-align: center;
   font-family: "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 36px;
-  margin-bottom: 0;
   letter-spacing: 0.5580000281333923px;
   text-transform: none;
 }

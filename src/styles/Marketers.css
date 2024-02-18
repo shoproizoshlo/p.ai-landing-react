@@ -20,9 +20,10 @@
   font-weight: 400;
   font-style: normal;
   font-family: "Arial", sans-serif;
+  text-align: center;
 }
 .marketers p:nth-child(3) {
-  max-width: 200px;
+  max-width: 250px;
 }
 .marketers p a {
   color: white;
@@ -76,23 +77,15 @@
     /* text-align: center; */
   }
   .marketers p {
-    color: white;
     font-size: 18px;
     line-height: 27px;
-    font-style: normal;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
   }
 }
 
 @media (min-width: 768px) {
   .marketers p {
-    color: white;
     font-size: 24px;
     line-height: 40px;
-    font-style: normal;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
   }
   .marketers-logo {
     margin: 50px 0;

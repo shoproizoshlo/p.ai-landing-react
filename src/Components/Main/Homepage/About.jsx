@@ -71,7 +71,7 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
         <button
           type="button"
           onClick={openModal}
-          className="w-full h-auto my-0 mx-auto block h-14 bg-white text-black rounded"
+          className="w-full h-14 my-0 mx-auto block bg-white text-black rounded"
         >
           Book a demo
         </button>

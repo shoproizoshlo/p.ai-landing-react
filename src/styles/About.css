@@ -71,42 +71,42 @@
 }
 
 .about .demo {
-  margin-top: 100px;
-  padding: 0 20px;
-  max-width: 1280px;
-  width: 100%;
+  /* margin-top: 100px; */
+  /* padding: 0 20px; */
+  /* max-width: 1280px; */
+  /* width: 100%; */
 }
 .about .demo p {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: #fff;
   font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
   font-style: normal;
-  margin-top: 0;
   text-align: center;
   font-family: "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 40px;
-  margin-bottom: 50px;
   letter-spacing: 0.8100000023841858px;
   text-transform: none;
 }
 
 .about .demo button {
-  background-color: white;
-  color: #000;
+  /* width: 100%; */
+  /* height: auto; */
+  /* margin: 0 auto; */
+  /* display: block; */
+  max-width: 152px;
+  /* height: 57px; */
+  /* background-color: white; */
+  /* color: #000; */
   font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
   font-style: normal;
   font-family: "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 23px;
   letter-spacing: 0.03999999910593033px;
   text-transform: none;
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-  max-width: 152px;
-  height: 57px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 @media (min-width: 640px) {
   .about-heading h3 {
@@ -114,7 +114,7 @@
     line-height: 51px;
   }
   .about .demo {
-    padding: 0;
+    /* padding: 0; */
   }
 }
 

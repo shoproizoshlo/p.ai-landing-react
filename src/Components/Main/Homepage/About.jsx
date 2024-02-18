@@ -31,7 +31,11 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
             descriptionAboutSection="Always-on, predictive acquisition and retention. Acquire new and repeat customers across any ad platform, at scale."
           />
           <div className="relative h-16 md:h-80 w-auto md:w-12 plus-img">
-            <img src={Plus} alt="plus img" className="relative inset-0 md:top-1/2 md:w-full md:h-auto z-2" />
+            <img
+              src={Plus}
+              alt="plus img"
+              className="relative inset-0 md:top-1/2 md:w-full md:h-auto z-2"
+            />
           </div>
           <AboutSection
             imgAboutSection={EfficiencyImg}
@@ -41,7 +45,11 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
             descriptionAboutSection="Predictive Audiences that ensure you invest the optimal amount based on every customer’s predicted conversion and customer lifetime value. No waste."
           />
           <div className="relative h-16 md:h-80 w-auto md:w-12 lg:w-14 plus-img">
-            <img src={Plus} alt="plus img" className="relative inset-0 md:top-1/2 md:w-full md:h-auto z-2" />
+            <img
+              src={Plus}
+              alt="plus img"
+              className="relative inset-0 md:top-1/2 md:w-full md:h-auto z-2"
+            />
           </div>
           <AboutSection
             imgAboutSection={UpliftImg}
@@ -58,9 +66,13 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
         reviewerName="Albert Abello"
         reviewerTitle="Director of Growth, Treatwell"
       />
-      <div className="demo">
+      <div className="mt-24 py-0 px-5 md:p-0 max-w-7xl w-full demo">
         <p>We’d love to give you a demo.</p>
-        <button type="button" onClick={openModal}>
+        <button
+          type="button"
+          onClick={openModal}
+          className="w-full h-auto my-0 mx-auto block h-14 bg-white text-black rounded"
+        >
           Book a demo
         </button>
       </div>

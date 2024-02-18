@@ -9,7 +9,7 @@ const Header = ({ openModal }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header>
+    <header >
       <div>
         <img src={Logo} alt="Logo" />
       </div>

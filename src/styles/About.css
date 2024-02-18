@@ -1,12 +1,12 @@
 .about {
-  background-color: black;
-  padding: 100px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* padding: 100px 0; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* background-color: black; */
 }
 
-.about-heading {
+.about .about-heading {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
@@ -16,21 +16,21 @@
   align-items: center;
 }
 
-.about-heading h3 {
+.about .about-heading h3 {
   max-width: 777px;
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-style: normal;
   margin-top: 0;
   text-align: center;
   font-family: "Arial", sans-serif;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 36px;
   margin-bottom: 0;
   letter-spacing: 0.5580000281333923px;
   text-transform: none;
 }
-.about-heading-img {
+.about .about-heading .about-heading-img {
   display: none;
 }
 /* .about-heading-img {
@@ -58,12 +58,12 @@
   justify-content: space-between;
 }
 
-.about-heading .plus-img {
+.about .about-heading .plus-img {
   height: 60px;
   width: auto;
   position: relative;
 }
-.about-heading .plus-img img {
+.about .about-heading .plus-img img {
   position: absolute;
   left: -25px;
   top: 0;
@@ -108,10 +108,19 @@
   height: 57px;
   border-radius: 4px;
 }
+@media (min-width: 640px) {
+  .about-heading h3 {
+    font-size: 48px;
+    line-height: 51px;
+  }
+  .about .demo {
+    padding: 0;
+  }
+}
 
 @media (min-width: 768px) {
-  .about-heading h3 {
-    font-size: 58px;
+  .about .about-heading h3 {
+    font-size: 50px;
     line-height: 71px;
   }
 
@@ -120,16 +129,16 @@
     flex-direction: row;
     align-items: start;
   }
-  .about-heading .plus-img {
+  .about .about-heading .plus-img {
     width: 20px;
     height: 319px;
   }
-  .about-heading .plus-img img {
+  .about .about-heading .plus-img img {
     left: -100%;
     top: 40%;
   }
 
-  .about-heading-img {
+  .about .about-heading .about-heading-img {
     display: block;
     margin: 0 15%;
     flex: 0 0 33.3333%;
@@ -137,7 +146,7 @@
     overflow: hidden;
     position: relative;
   }
-  .about-heading-img img {
+  .about .about-heading .about-heading-img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -152,8 +161,10 @@
     line-height: 57px;
   }
 }
-@media (min-width: 640px) {
-  .about .demo {
-    padding: 0;
+
+@media (min-width: 1024px) {
+  .about .about-heading h3 {
+    font-size: 58px;
+    line-height: 71px;
   }
 }

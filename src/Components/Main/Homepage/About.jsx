@@ -11,7 +11,7 @@ import "../../../styles/About.css";
 
 const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
   return (
-    <div className="about">
+    <div className="pt-24 pb-24 flex flex-col items-center bg-black about">
       <div className="about-heading">
         <h3>{headingAbout}</h3>
         <div className="about-heading-img">

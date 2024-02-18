@@ -36,6 +36,7 @@
 @media (min-width: 640px) {
   .menu-mobile {
     /* padding: 100px 70px; */
+    position: fixed;
   }
 }
 

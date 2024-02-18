@@ -9,7 +9,7 @@ const Header = ({ openModal }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="mb-0 mt-0 ms-auto me-auto pt-5 pb-5 ps-4 pe-4 sm:p-12 lg:pt-10 lg:pb-10 lg:ps-4 lg:pe-4 fixed lg:relative flex flex-row items-center justify-between max-w-7xl w-full bg-white z-3">
+    <header className="mb-0 mt-0 ms-auto me-auto pt-5 pb-5 ps-4 pe-4 sm:p-12 lg:pt-10 lg:pb-10 lg:ps-4 lg:pe-4 fixed lg:relative flex flex-row items-center justify-between max-w-7xl w-full bg-white z-10">
       <div>
         <img src={Logo} alt="Logo" />
       </div>

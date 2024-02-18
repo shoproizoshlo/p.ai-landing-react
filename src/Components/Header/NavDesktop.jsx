@@ -2,7 +2,7 @@ import "../../styles/NavDesktop.css";
 
 const NavDesktop = ({ openModal, closeModal }) => {
   return (
-    <div className="nav-desktop">
+    <div className="w-full hidden lg:flex flex-row justify-center nav-desktop">
       <ul>
         <li onClick={openModal}>
           <a>Product</a>

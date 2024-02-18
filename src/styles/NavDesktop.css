@@ -1,11 +1,11 @@
 .nav-desktop {
-  width: 100%;
-  display: none;
-  justify-content: center;
+  /* width: 100%; */
+  /* display: none; */
+  /* justify-content: center; */
 }
 @media (min-width: 1024px) {
   .nav-desktop {
-    display: flex;
+    /* display: flex; */
   }
 }
 

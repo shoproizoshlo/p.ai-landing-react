@@ -7,8 +7,12 @@ const Footer = ({ openModal, closeModal }) => {
   return (
     <footer className="max-w-7xl w-full my-0 mx-auto py-10 md:py-20 px-5">
       <div className="mb-12 sm:mb-20 flex flex-col sm:flex-row items-start justify-start sm:justify-between">
-        <div className="logo">
-          <img src={Logo} alt="" />
+        <div className="overflow-hidden relative logo">
+          <img
+            src={Logo}
+            alt=""
+            className="w-full h-10 object-contain object-left relative inset-0"
+          />
         </div>
         <div>
           <FooterLinks
@@ -55,9 +59,9 @@ const Footer = ({ openModal, closeModal }) => {
           </FooterLinks>
         </div>
       </div>
-      <div className="policy">
+      <div className="mb-0 flex flex-col md:flex-row policy">
         <p>Programmai Ltd. © 2022. All Rights Reserved.</p>
-        <div>
+        <div className="mt-3 flex-grow flex flex-col md:flex-row md:justify-end">
           <p>
             <a onClick={openModal}>Privacy Policy</a>
           </p>

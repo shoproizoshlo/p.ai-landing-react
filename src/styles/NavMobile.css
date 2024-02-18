@@ -55,10 +55,10 @@
 }
 
 .menu-mobile ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
+  /* align-items: flex-end; */
   font-size: 30px;
   line-height: 65px;
 }

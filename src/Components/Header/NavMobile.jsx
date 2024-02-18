@@ -24,7 +24,7 @@ const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
         }`}
       >
         {isMenuOpen ? (
-          <ul>
+          <ul className="flex flex-col items-end justify-start">
             <li onClick={openModal}>
               <a>Product</a>
             </li>

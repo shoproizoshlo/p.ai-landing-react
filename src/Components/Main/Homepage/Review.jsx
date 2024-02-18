@@ -2,9 +2,9 @@ import "../../../styles/Review.css";
 
 const Review = ({ companyName, reviewText, reviewerName, reviewerTitle }) => {
   return (
-    <div className="review-container">
-      <div className="review">
-        <div>
+    <div className="w-full review-container">
+      <div className="my-0 mx-auto max-w-7xl w-full flex flex-col items-center text-white review">
+        <div className="my-28 mx-5 md:mt-12 md:mb-32 lg:m-52 flex flex-col">
           <div className="company-name">
             <img src={companyName} alt="company name" />
           </div>

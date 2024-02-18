@@ -1,35 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
 
 .review-container {
-  width: 100%;
+  /* width: 100%; */
   background-color: #4e5eff;
 }
 .review {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
+  /* margin: 0 auto; */
+  /* max-width: 1280px; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* color: white; */
 }
 
 .review > div {
-  margin: 100px 20px;
-  display: flex;
-  flex-direction: column;
+  /* margin: 100px 20px; */
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 .review > div > div {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .review > div > p {
   color: #fff;
   font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
   font-style: normal;
   text-align: left;
   font-family: "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 40px;
   letter-spacing: 0.16200000047683716px;
   text-transform: none;
 }
@@ -37,44 +37,42 @@
   margin-bottom: 120px;
   max-width: 842px;
   position: relative;
-  color: #fff;
+  /* color: #fff; */
   font-size: 18px;
   line-height: 27px;
-  font-style: normal;
-  text-align: left;
-  font-family: "Arial", sans-serif;
-  font-weight: 400;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  /* text-align: left; */
+  /* font-family: "Arial", sans-serif; */
   letter-spacing: 0.8100000023841858px;
-  text-transform: none;
+  /* text-transform: none; */
 }
 
 .review p::after {
-  content: "";
-  display: inline;
   width: 100%;
   height: 0;
-}
-
-.review p::after {
+  content: "";
+  display: inline;
   color: #0d0d0d;
   content: " " attr(data-last-word);
 }
 
 .review > div > p:last-of-type {
-  color: #fff;
-  font-size: 18px;
-  font-style: normal;
   margin-top: 0;
-  text-align: left;
-  font-family: "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 30px;
   margin-bottom: 0;
-  letter-spacing: 0.16200000047683716px;
-  text-transform: none;
+  /* color: #fff; */
+  font-size: 18px;
+  line-height: 30px;
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  /* text-align: left; */
+  /* font-family: "Arial", sans-serif; */
+  /* letter-spacing: 0.16200000047683716px; */
+  /* text-transform: none; */
 }
 
 .review > div .company-name {
+  margin-bottom: 40px;
   flex: 0 0 33.3333%;
   min-height: 20px;
   overflow: hidden;
@@ -93,62 +91,29 @@
 
 @media (min-width: 640px) {
   .review > div .company-name {
-    flex: 0 0 33.3333%;
     min-height: 32px;
-    overflow: hidden;
-    position: relative;
   }
 
   .review > div > p {
-    color: #fff;
     font-size: 24px;
-    font-style: normal;
-    text-align: left;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
     line-height: 40px;
-    letter-spacing: 0.16200000047683716px;
-    text-transform: none;
   }
 
   .review > div > p:first-of-type {
-    margin-bottom: 120px;
-    max-width: 842px;
-    position: relative;
-    color: #fff;
     font-size: 24px;
-    font-style: normal;
-    text-align: left;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
     line-height: 36px;
-    letter-spacing: 0.8100000023841858px;
-    text-transform: none;
   }
 }
 
 @media (min-width: 768px) {
   .review > div {
-    margin: 100px 50px 100px 120px;
-    display: flex;
-    flex-direction: column;
+    /* margin: 100px 50px 100px 120px; */
   }
 
   .review > div > p:first-of-type {
-    margin-bottom: 120px;
-    max-width: 842px;
-    position: relative;
-    color: #fff;
     font-size: 42px;
-    font-style: normal;
-    text-align: left;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
     line-height: 52px;
-    letter-spacing: 0.8100000023841858px;
-    text-transform: none;
   }
-
   .review > div > p:first-of-type::before {
     position: absolute;
     left: -13%;
@@ -159,12 +124,15 @@
     margin-right: 0.1em;
     font-family: "Libre Franklin", sans-serif;
   }
+
+  .review > div > p:last-of-type {
+    font-size: 42px;
+    line-height: 52px;
+  }
 }
 
 @media (min-width: 1024px) {
   .review > div {
     margin: 200px;
-    display: flex;
-    flex-direction: column;
   }
 }

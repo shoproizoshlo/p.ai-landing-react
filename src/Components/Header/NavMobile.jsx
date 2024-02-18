@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -6,9 +5,7 @@ library.add(fas);
 
 import "../../styles/NavMobile.css";
 
-const NavMobile = ({ openModal }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
   return (
     <div className="nav-mobile">
       <div

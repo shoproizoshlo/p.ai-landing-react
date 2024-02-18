@@ -19,7 +19,7 @@ function App() {
   };
   return (
     <>
-      <Header openModal={openModal} closeModal={closeModal} />
+      <Header openModal={openModal} />
       <Main openModal={openModal} closeModal={closeModal} />
       <Footer openModal={openModal} closeModal={closeModal} />
       <Modal isOpen={isModalOpen} onClose={closeModal} />

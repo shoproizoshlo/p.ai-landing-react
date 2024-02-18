@@ -7,9 +7,9 @@ import "../../styles/NavMobile.css";
 
 const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
   return (
-    <div className="nav-mobile">
+    <div className="flex lg:hidden">
       <div
-        className="menu-icon"
+        className="flex flex-col items-end z-10 menu-icon"
         onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
       >
         <FontAwesomeIcon
@@ -18,7 +18,11 @@ const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
           className={`menu-icon${isMenuOpen ? " open" : ""}`}
         />
       </div>
-      <div className={`menu-mobile${isMenuOpen ? " open" : ""}`}>
+      <div
+        className={`pt-24 pb-24 ps-5 pe-5 sm:ps-12 sm:pe-12 hidden fixed inset-0 h-full w-full bg-white z-4 menu-mobile${
+          isMenuOpen ? " open" : ""
+        }`}
+      >
         {isMenuOpen ? (
           <ul>
             <li onClick={openModal}>

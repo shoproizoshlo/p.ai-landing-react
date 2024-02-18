@@ -1,8 +1,4 @@
 header {
-  position: fixed;
-  background-color: white;
-  max-width: 1280px;
-  width: 100%;
   margin: 0 auto;
   padding: 20px 15px;
   display: flex;
@@ -10,6 +6,10 @@ header {
   align-items: center;
   justify-content: space-between;
   color: #0d0d0d;
+  position: fixed;
+  background-color: white;
+  max-width: 1280px;
+  width: 100%;
   font-size: 16px;
   line-height: 23px;
   font-style: normal;
@@ -31,41 +31,14 @@ header div:first-child {
 
 @media (min-width: 640px) {
   header {
-    background-color: white;
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
     padding: 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     color: #0d0d0d;
-    font-size: 16px;
-    line-height: 23px;
-    font-style: normal;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
   }
 }
 
 @media (min-width: 1024px) {
   header {
-    position: relative;
-    background-color: white;
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
     padding: 40px 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: #0d0d0d;
-    font-size: 16px;
-    line-height: 23px;
-    font-style: normal;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
+    position: relative;
   }
 }

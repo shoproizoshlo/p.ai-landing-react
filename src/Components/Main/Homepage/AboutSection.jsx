@@ -8,11 +8,11 @@ const AboutSection = ({
   closeModal,
 }) => {
   return (
-    <div className="p-2 md:p-3 max-w-sm w-full about-section">
-      <div className="line"></div>
-      <div className="content-about-section">
+    <div className="p-2 md:p-3 max-w-sm w-full md:w-1/3 flex flex-col items-center rounded about-section">
+      <div className="h-2 rounded z-2 line"></div>
+      <div className="m-5 sm:my-12 sm:mx-6 h-full flex flex-col items-start justify-between content-about-section">
         <div>
-          <div className="heading-about-section">
+          <div className="mb-5 flex flex-row items-center heading-about-section">
             <div>
               <img src={imgAboutSection} alt="" />
             </div>

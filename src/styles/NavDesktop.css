@@ -10,10 +10,10 @@
 }
 
 .nav-desktop ul {
-  width: 36%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  /* width: 36%; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
 }
 .nav-desktop ul li {
   list-style: none;

@@ -8,7 +8,7 @@ const AboutSection = ({
   closeModal,
 }) => {
   return (
-    <div className="about-section">
+    <div className="p-2 md:p-3 max-w-sm w-full about-section">
       <div className="line"></div>
       <div className="content-about-section">
         <div>

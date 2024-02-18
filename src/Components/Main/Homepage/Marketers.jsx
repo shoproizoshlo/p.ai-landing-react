@@ -6,7 +6,7 @@ import "../../../styles/Marketers.css";
 
 const Marketers = ({ openModal, closeModal }) => {
   return (
-    <div className="marketers-container">
+    <div className="py-16 px-5 sm:py-28 sm:px-10 lg:p-28 bg-black marketers-container">
       <div className="marketers">
         <p>Chosen by progressive marketers.</p>
         <div className="marketers-logo">

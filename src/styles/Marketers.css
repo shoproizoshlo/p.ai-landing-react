@@ -1,7 +1,7 @@
 .marketers-container {
   /* padding: 100px; */
-  padding: 60px 20px;
-  background-color: black;
+  /* padding: 60px 20px; */
+  /* background-color: black; */
   /* text-align: center; */
 }
 .marketers {
@@ -70,9 +70,18 @@
   left: 0;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 640px) {
   .marketers-container {
-    padding: 100px;
+    /* padding: 100px 40px; */
+    /* text-align: center; */
+  }
+  .marketers p {
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-style: normal;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
   }
 }
 
@@ -93,18 +102,8 @@
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 1024px) {
   .marketers-container {
-    padding: 100px 40px;
-    background-color: black;
-    /* text-align: center; */
-  }
-  .marketers p {
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    font-style: normal;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
+    /* padding: 100px; */
   }
 }

@@ -9,7 +9,7 @@ const Marketers = ({ openModal, closeModal }) => {
     <div className="py-16 px-5 sm:py-28 sm:px-10 lg:p-28 bg-black marketers-container">
       <div className="max-w-7xl w-g w-full my-0 mx-auto flex flex-col items-center marketers">
         <p>Chosen by progressive marketers.</p>
-        <div className="marketers-logo">
+        <div className="my-12 mx-0 flex flex-col justify-between marketers-logo">
           <div>
             <img src={AsosLogo} alt="Asos logo" />
           </div>

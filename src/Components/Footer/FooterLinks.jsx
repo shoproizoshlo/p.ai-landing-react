@@ -2,9 +2,9 @@ import "../../styles/FooterLinks.css";
 
 const FooterLinks = ({ footerLinksTitle, children }) => {
   return (
-    <div className="footer-links">
+    <div className="mb-4 md:mb-0 flex flex-col footer-links">
       <h5>{footerLinksTitle}</h5>
-      <ul>{children}</ul>
+      <ul className="flex flex-col">{children}</ul>
     </div>
   );
 };

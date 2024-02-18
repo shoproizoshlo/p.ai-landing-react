@@ -1,8 +1,8 @@
 .footer-links {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   flex: 0 0 30%;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 .footer-links:last-child {
   margin-bottom: 0;
@@ -11,23 +11,23 @@
   margin-bottom: 0px;
   color: #0d0d0d;
   font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
   font-style: normal;
   font-family: "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 27px;
   letter-spacing: 0.16200000047683716px;
   text-transform: none;
 }
 
 .footer-links ul {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   color: #0d0d0d;
   font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
   font-style: normal;
   font-family: "Arial", sans-serif;
-  font-weight: 400;
-  line-height: 21px;
   letter-spacing: 0.14399999380111694px;
   text-transform: none;
 }
@@ -42,16 +42,16 @@
   color: #0d0d0d;
 }
 .footer-links ul li::after {
+  width: 0;
+  height: 2px;
   display: flex;
   cursor: pointer;
+  background-color: black;
   content: "";
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
   /* bottom: 0; */
-  width: 0;
-  height: 2px;
-  background-color: black;
+  transform: translateX(-50%);
   transition: width 0.5s ease;
 }
 
@@ -62,22 +62,14 @@
 
 @media (min-width: 768px) {
   .footer-links {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     flex: 0 0 35%;
-    display: flex;
-    flex-direction: column;
   }
 
   .footer-links h5 {
     margin-bottom: 28px;
-    color: #0d0d0d;
     font-size: 23px;
-    font-style: normal;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
     line-height: 38px;
-    letter-spacing: 0.16200000047683716px;
-    text-transform: none;
   }
 
   .footer-links li {

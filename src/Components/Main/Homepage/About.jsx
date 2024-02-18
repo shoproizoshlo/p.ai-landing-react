@@ -30,7 +30,7 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
             headingAboutSection="Volume"
             descriptionAboutSection="Always-on, predictive acquisition and retention. Acquire new and repeat customers across any ad platform, at scale."
           />
-          <div className="relative h-16 md:h-80 w-auto md:w-12 plus-img">
+          <div className="relative h-16 md:h-80 w-auto md:w-12 lg:w-16 plus-img">
             <img
               src={Plus}
               alt="plus img"
@@ -44,7 +44,7 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
             headingAboutSection="Efficiency"
             descriptionAboutSection="Predictive Audiences that ensure you invest the optimal amount based on every customer’s predicted conversion and customer lifetime value. No waste."
           />
-          <div className="relative h-16 md:h-80 w-auto md:w-12 lg:w-14 plus-img">
+          <div className="relative h-16 md:h-80 w-auto md:w-12 lg:w-16 plus-img">
             <img
               src={Plus}
               alt="plus img"

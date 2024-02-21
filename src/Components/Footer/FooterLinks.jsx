@@ -12,14 +12,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const FooterLinks = ({ footerLinksTitle, children }) => {
   const [isLinkOpen, setIsLinkOpen] = useState(false);
 
-  const toggleLinks = () => {
-    console.log("hello");
-    setIsLinkOpen(true);
-  };
-
   return (
     <div className="mb-4 md:mb-0 flex flex-col footer-links">
-      <div className="flex flex-row items-center" onClick={toggleLinks}>
+      <div
+        className="flex flex-row items-center"
+        onClick={() => {
+          setIsLinkOpen((prevState) => !prevState);
+        }}
+      >
         <h5 className="mb-0 sm:mb-7 text-lg sm:text-2xl">{footerLinksTitle}</h5>
         <FontAwesomeIcon
           icon="fa-solid fa-chevron-down"

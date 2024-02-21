@@ -3,8 +3,6 @@ import NavDesktop from "./NavDesktop";
 import NavMobile from "./NavMobile";
 import Logo from "../../assets/Logo.svg";
 
-import "../../styles/Header.css";
-
 const Header = ({ openModal }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

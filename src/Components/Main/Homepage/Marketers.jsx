@@ -6,7 +6,7 @@ import "../../../styles/Marketers.css";
 
 const Marketers = ({ openModal }) => {
   return (
-    <div className="py-16 px-5 sm:py-28 sm:px-10 lg:p-28 bg-black marketers-container">
+    <div className="py-16 px-5 sm:py-28 sm:px-10 lg:p-28 bg-black">
       <div className="max-w-7xl w-g w-full my-0 mx-auto flex flex-col items-center marketers">
         <p>Chosen by progressive marketers.</p>
         <div className="my-12 mx-0 flex flex-col md:flex-row justify-between marketers-logo">

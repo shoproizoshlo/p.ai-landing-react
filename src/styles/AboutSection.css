@@ -16,7 +16,7 @@
   background-color: #4e5eff;
 }
 
-.content-about-section .heading-about-section h4 {
+.about-section .content-about-section .heading-about-section h4 {
   margin-left: 15px;
   color: #fff;
   font-size: 20px;
@@ -24,7 +24,7 @@
   letter-spacing: 0.23399999737739563px;
 }
 
-.content-about-section p {
+.about-section p {
   margin-top: 0;
   color: #fff;
   font-size: 16px;
@@ -32,7 +32,7 @@
   letter-spacing: 0.14399999380111694px;
 }
 
-.content-about-section a {
+.about-section a {
   margin-top: 0;
   max-width: 180px;
   background-color: #242424;
@@ -41,7 +41,7 @@
   line-height: 23px;
   letter-spacing: 0.23399999737739563px;
 }
-.content-about-section a::after {
+.about-section .content-about-section a::after {
   width: 0;
   height: 2px;
   display: flex;
@@ -54,8 +54,8 @@
   transition: width 0.5s ease;
 }
 
-.content-about-section:hover a::after,
-.content-about-section:active a::after {
+.about-section .content-about-section a:hover::after,
+.about-section .content-about-section a:active::after {
   width: 100%;
 }
 
@@ -76,7 +76,7 @@
     height: 350px;
   }
 
-  .content-about-section .heading-about-section h4 {
+  .about-section .content-about-section .heading-about-section h4 {
     margin-left: 20px;
     font-size: 24px;
     line-height: 35px;
@@ -86,7 +86,7 @@
 @media (min-width: 768px) {
   .about-section {
     min-height: 319px;
-    height: 450px;
+    height: 480px;
   }
 }
 

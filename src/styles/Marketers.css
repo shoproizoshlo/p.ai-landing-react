@@ -2,17 +2,12 @@
   color: white;
   font-size: 16px;
   line-height: 25px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: "Arial", sans-serif;
   text-align: center;
 }
 .marketers p:nth-child(3) {
   max-width: 250px;
 }
-.marketers p a {
-  color: white;
-}
+
 .marketers p a::after {
   display: flex;
   cursor: pointer;

@@ -24,7 +24,9 @@ const Marketers = ({ openModal }) => {
           </div>
         </div>
         <p>
-          <a onClick={openModal}>Read success stories</a>
+          <a onClick={openModal} className="text-white">
+            Read success stories
+          </a>
         </p>
       </div>
     </div>

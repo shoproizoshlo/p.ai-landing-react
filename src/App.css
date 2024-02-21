@@ -1,12 +1,14 @@
 header,
 main,
 footer {
-  align-items: center;
   color: #0d0d0d;
   font-style: normal;
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 400;
   text-align: left;
   font-family: "Arial", sans-serif;
-  font-weight: 400;
+  letter-spacing: 0.16200000047683716px;
   text-transform: none;
 }
 

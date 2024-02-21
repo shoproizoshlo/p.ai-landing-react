@@ -13,7 +13,9 @@ const About = ({ headingAbout, imgAbout, openModal }) => {
   return (
     <div className="py-24 flex flex-col items-center bg-black about">
       <div className="max-w-7xl w-full my-0 mx-auto pt-0 pb-0 ps-5 pe-5 flex flex-col items-center about-heading">
-        <h3>{headingAbout}</h3>
+        <h3 className="my-0 max-w-3xl text-white text-center text-2xl sm:text-5xl lg:text-6xl">
+          {headingAbout}
+        </h3>
         <div className="hidden md:block my-0 md:mx-20 lg:mx-auto relative overflow-hidden">
           <img
             src={imgAbout}
@@ -64,11 +66,13 @@ const About = ({ headingAbout, imgAbout, openModal }) => {
         reviewerTitle="Director of Growth, Treatwell"
       />
       <div className="mt-24 py-0 px-5 md:p-0 max-w-7xl w-full demo">
-        <p>We’d love to give you a demo.</p>
+        <p className="my-0 text-white text-center text-xl md:text-4xl">
+          We’d love to give you a demo.
+        </p>
         <button
           type="button"
           onClick={openModal}
-          className="w-full h-14 my-0 mx-auto block bg-white text-black rounded"
+          className="w-full h-14 mt-14 mx-auto block bg-white text-black text-base rounded"
         >
           Book a demo
         </button>

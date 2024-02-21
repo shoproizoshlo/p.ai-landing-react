@@ -1,55 +1,10 @@
-.about .about-heading h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 777px;
-  color: #fff;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
-  letter-spacing: 0.5580000281333923px;
-}
-.about .demo p {
-  margin-top: 0;
-  margin-bottom: 50px;
-  color: #fff;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.8100000023841858px;
-}
-
 .about .demo button {
   max-width: 152px;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.03999999910593033px;
-}
-@media (min-width: 640px) {
-  .about-heading h3 {
-    font-size: 48px;
-    line-height: 51px;
-  }
 }
 
 @media (min-width: 768px) {
-  .about .about-heading h3 {
-    font-size: 50px;
-    line-height: 71px;
-  }
-
   .about .about-heading > div {
     flex: 0 0 33.3333%;
     min-height: 150px;
-  }
-  .about .demo p {
-    font-size: 39px;
-    line-height: 57px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .about .about-heading h3 {
-    font-size: 58px;
-    line-height: 71px;
   }
 }

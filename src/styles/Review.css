@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
 
-.review-container {
-  background-color: #4e5eff;
-}
 .review > div > p {
   color: #fff;
   font-size: 20px;

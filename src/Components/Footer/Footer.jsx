@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import FooterLinks from "./FooterLinks";
 import Logo from "../../assets/Logo.svg";

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import AsosLogo from "../../../assets/asos-logo.svg";
 import DominosLogo from "../../../assets/dominos-logo.svg";

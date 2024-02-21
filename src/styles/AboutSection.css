@@ -1,6 +1,5 @@
 .about-section {
   height: 400px;
-  background-color: #242424;
 }
 
 .about-section .line {
@@ -16,31 +15,6 @@
   background-color: #4e5eff;
 }
 
-.about-section .content-about-section .heading-about-section h4 {
-  margin-left: 15px;
-  color: #fff;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.23399999737739563px;
-}
-
-.about-section p {
-  margin-top: 0;
-  color: #fff;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.14399999380111694px;
-}
-
-.about-section a {
-  margin-top: 0;
-  max-width: 180px;
-  background-color: #242424;
-  color: #fff;
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.23399999737739563px;
-}
 .about-section .content-about-section a::after {
   width: 0;
   height: 2px;
@@ -74,12 +48,6 @@
 @media (min-width: 640px) {
   .about-section {
     height: 350px;
-  }
-
-  .about-section .content-about-section .heading-about-section h4 {
-    margin-left: 20px;
-    font-size: 24px;
-    line-height: 35px;
   }
 }
 

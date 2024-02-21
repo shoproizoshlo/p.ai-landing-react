@@ -15,7 +15,7 @@ const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
         <FontAwesomeIcon
           icon={isMenuOpen ? ["fas", "times"] : ["fas", "bars"]}
           size="2x"
-          className={`menu-icon${isMenuOpen ? " open" : ""}`}
+          className={`${isMenuOpen ? " open" : ""}`}
         />
       </div>
       <div

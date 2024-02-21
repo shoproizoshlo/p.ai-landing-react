@@ -11,11 +11,6 @@
   transition: transform 0.3s ease-in-out;
   animation: slideFromRightToLeft 0.3s ease-in-out;
 }
-@media (min-width: 640px) {
-  .menu-mobile {
-    position: fixed;
-  }
-}
 
 .menu-mobile.open {
   display: flex;
@@ -54,4 +49,10 @@
 .menu-mobile ul li a:visited,
 .menu-mobile ul li a:active {
   color: #0d0d0d;
+}
+
+@media (min-width: 640px) {
+  .menu-mobile {
+    position: fixed;
+  }
 }

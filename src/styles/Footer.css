@@ -14,7 +14,7 @@ footer .policy p {
 footer .policy p a {
   color: #0d0d0d;
 }
-footer .policy p a::after {
+footer .policy p::after {
   width: 0;
   height: 2px;
   display: flex;
@@ -27,8 +27,8 @@ footer .policy p a::after {
   transition: width 0.5s ease;
 }
 
-footer .policy p a:hover::after,
-footer .policy p a:active::after {
+footer .policy p:hover::after,
+footer .policy p:active::after {
   width: 100%;
 }
 

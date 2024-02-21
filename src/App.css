@@ -2,6 +2,12 @@ header,
 main,
 footer {
   align-items: center;
+  color: #0d0d0d;
+  font-style: normal;
+  text-align: left;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: none;
 }
 
 main {

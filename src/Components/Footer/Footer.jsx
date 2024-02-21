@@ -7,7 +7,7 @@ import "../../styles/Footer.css";
 
 const Footer = ({ openModal }) => {
   return (
-    <footer className="max-w-7xl w-full my-0 mx-auto py-10 md:py-20 px-5">
+    <footer className="max-w-7xl w-full h-96 md:h-auto my-0 mx-auto py-10 md:py-20 px-5">
       <div className="mb-12 sm:mb-20 flex flex-col sm:flex-row items-start justify-start sm:justify-between">
         <div className="overflow-hidden relative">
           <img

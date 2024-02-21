@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -26,19 +28,19 @@ const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
         {isMenuOpen ? (
           <ul className="flex flex-col items-end justify-start text-xl">
             <li onClick={openModal}>
-              <a>Product</a>
+              <Link to="/product">Product</Link>
             </li>
             <li onClick={openModal}>
-              <a>Customers</a>
+              <Link to="/customers">Customers</Link>
             </li>
             <li onClick={openModal}>
-              <a>About</a>
+              <Link to="/about">About</Link>
             </li>
             <li onClick={openModal}>
-              <a>Blog</a>
+              <Link to="/blog">Blog</Link>
             </li>
             <li onClick={openModal}>
-              <a>Login</a>
+              <Link to="/login">Login</Link>
             </li>
           </ul>
         ) : (

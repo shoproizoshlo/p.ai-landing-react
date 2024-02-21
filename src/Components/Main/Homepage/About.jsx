@@ -76,7 +76,7 @@ const About = ({ headingAbout, imgAbout, openModal }) => {
           onClick={openModal}
           className="w-full h-14 mt-14 mx-auto block bg-white text-black text-base rounded"
         >
-          <Link to="/demo">Book a demo</Link>
+          <Link to="/">Book a demo</Link>
         </button>
       </div>
     </div>

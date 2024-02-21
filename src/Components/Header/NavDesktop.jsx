@@ -7,19 +7,19 @@ const NavDesktop = ({ openModal }) => {
     <div className="w-full hidden lg:flex flex-row justify-center nav-desktop">
       <ul className="w-2/5 flex flex-row justify-between">
         <li onClick={openModal}>
-          <Link to="/product">Product</Link>
+          <Link to="/">Product</Link>
         </li>
         <li onClick={openModal}>
-          <Link to="/customers">Customers</Link>
+          <Link to="/">Customers</Link>
         </li>
         <li onClick={openModal}>
-          <Link to="/about">About</Link>
+          <Link to="/">About</Link>
         </li>
         <li onClick={openModal}>
-          <Link to="/blog">Blog</Link>
+          <Link to="/">Blog</Link>
         </li>
         <li onClick={openModal}>
-          <Link to="/login">Login</Link>
+          <Link to="/">Login</Link>
         </li>
       </ul>
     </div>

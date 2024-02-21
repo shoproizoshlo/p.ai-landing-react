@@ -28,19 +28,19 @@ const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
         {isMenuOpen ? (
           <ul className="flex flex-col items-end justify-start text-xl">
             <li onClick={openModal}>
-              <Link to="/product">Product</Link>
+              <Link to="/">Product</Link>
             </li>
             <li onClick={openModal}>
-              <Link to="/customers">Customers</Link>
+              <Link to="/">Customers</Link>
             </li>
             <li onClick={openModal}>
-              <Link to="/about">About</Link>
+              <Link to="/">About</Link>
             </li>
             <li onClick={openModal}>
-              <Link to="/blog">Blog</Link>
+              <Link to="/">Blog</Link>
             </li>
             <li onClick={openModal}>
-              <Link to="/login">Login</Link>
+              <Link to="/">Login</Link>
             </li>
           </ul>
         ) : (

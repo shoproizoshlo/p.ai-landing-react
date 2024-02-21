@@ -10,7 +10,7 @@ import ImgAbout from "../../../assets/about.svg";
 
 const Homepage = ({ openModal }) => {
   return (
-    <div className="homepage">
+    <main className="homepage">
       <FirstScreen
         heading="Generate unlimited, winning audiences."
         heading2="No targeting gaps."
@@ -42,7 +42,7 @@ const Homepage = ({ openModal }) => {
         imgAbout={ImgAbout}
         openModal={openModal}
       />
-    </div>
+    </main>
   );
 };
 

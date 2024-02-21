@@ -26,7 +26,7 @@ const Marketers = ({ openModal }) => {
           </div>
         </div>
         <p onClick={openModal} className="text-white">
-          <Link to="/success-stories">Read success stories</Link>
+          <Link to="/">Read success stories</Link>
         </p>
       </div>
     </div>

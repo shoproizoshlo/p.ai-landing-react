@@ -24,7 +24,7 @@ const AboutSection = ({
           <p className="mt-0 text-white">{descriptionAboutSection}</p>
         </div>
         <p onClick={openModal} className="mt-0 text-white">
-          <Link to="/success-stories">View customer stories</Link>
+          <Link to="/">View customer stories</Link>
         </p>
       </div>
     </div>

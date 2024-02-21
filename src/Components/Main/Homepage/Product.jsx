@@ -14,7 +14,7 @@ const Product = ({ heading3, productDescription, productImg, openModal }) => {
             {productDescription}
           </p>
           <p onClick={openModal}>
-            <Link to="/product">Learn more</Link>
+            <Link to="/">Learn more</Link>
           </p>
         </div>
         <div className="product-img">

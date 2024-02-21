@@ -23,7 +23,7 @@ const FooterLinks = ({ footerLinksTitle, children }) => {
         <h5 className="mb-0 sm:mb-7 text-lg sm:text-2xl">{footerLinksTitle}</h5>
         <FontAwesomeIcon
           icon="fa-solid fa-chevron-down"
-          className={`ms-3 md:hidden ${isLinkOpen ? "open" : ""}`}
+          className={`ms-3 lg:hidden ${isLinkOpen ? "open" : ""}`}
         />
       </div>
       <ul

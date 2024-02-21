@@ -32,7 +32,6 @@ function App() {
         <Route path="/about" element={<Modal />} />
         <Route path="/blog" element={<Modal />} />
         <Route path="/login" element={<Modal />} />
-        <Route path="/success-stories" element={<Navigate replace to="/" />} />
         <Route path="/" element={<Homepage />} />
       </Routes>
 

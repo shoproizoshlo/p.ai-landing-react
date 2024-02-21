@@ -9,7 +9,7 @@ const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
   return (
     <div className="flex lg:hidden">
       <div
-        className="flex flex-col items-end z-10 menu-icon"
+        className="flex flex-col items-end z-10 cursor-pointer menu-icon"
         onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
       >
         <FontAwesomeIcon
@@ -24,7 +24,7 @@ const NavMobile = ({ openModal, isMenuOpen, setIsMenuOpen }) => {
         }`}
       >
         {isMenuOpen ? (
-          <ul className="flex flex-col items-end justify-start">
+          <ul className="flex flex-col items-end justify-start text-xl">
             <li onClick={openModal}>
               <a>Product</a>
             </li>

@@ -1,5 +1,4 @@
 .menu-icon {
-  cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
 .menu-icon.open {
@@ -7,8 +6,6 @@
 }
 
 .menu-mobile {
-  transition: all 0.3s ease;
-  transition: transform 0.3s ease-in-out;
   animation: slideFromRightToLeft 0.3s ease-in-out;
 }
 
@@ -25,11 +22,6 @@
   to {
     transform: translateX(0%);
   }
-}
-
-.menu-mobile ul {
-  font-size: 30px;
-  line-height: 65px;
 }
 
 .menu-mobile ul li {
@@ -49,10 +41,4 @@
 .menu-mobile ul li a:visited,
 .menu-mobile ul li a:active {
   color: #0d0d0d;
-}
-
-@media (min-width: 640px) {
-  .menu-mobile {
-    position: fixed;
-  }
 }

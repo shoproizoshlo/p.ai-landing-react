@@ -14,7 +14,7 @@ const About = ({ headingAbout, imgAbout, openModal }) => {
     <div className="py-24 flex flex-col items-center bg-black about">
       <div className="max-w-7xl w-full my-0 mx-auto pt-0 pb-0 ps-5 pe-5 flex flex-col items-center about-heading">
         <h3>{headingAbout}</h3>
-        <div className="hidden md:block my-0 md:mx-20 lg:mx-auto relative overflow-hidden about-heading-img">
+        <div className="hidden md:block my-0 md:mx-20 lg:mx-auto relative overflow-hidden">
           <img
             src={imgAbout}
             alt="about img"
@@ -22,7 +22,7 @@ const About = ({ headingAbout, imgAbout, openModal }) => {
           />
         </div>
 
-        <div className="mt-12 md:mt-0 mb-24 flex flex-col md:flex-row items-center md:items-start justify-between about-sections">
+        <div className="mt-12 md:mt-0 mb-24 flex flex-col md:flex-row items-center md:items-start justify-between">
           <AboutSection
             imgAboutSection={VolumeImg}
             openModal={openModal}

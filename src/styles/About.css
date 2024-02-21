@@ -5,12 +5,8 @@
   color: #fff;
   font-size: 24px;
   line-height: 36px;
-  font-weight: 400;
-  font-style: normal;
   text-align: center;
-  font-family: "Arial", sans-serif;
   letter-spacing: 0.5580000281333923px;
-  text-transform: none;
 }
 .about .demo p {
   margin-top: 0;
@@ -18,12 +14,8 @@
   color: #fff;
   font-size: 20px;
   line-height: 40px;
-  font-weight: 400;
-  font-style: normal;
   text-align: center;
-  font-family: "Arial", sans-serif;
   letter-spacing: 0.8100000023841858px;
-  text-transform: none;
 }
 
 .about .demo button {
@@ -45,7 +37,7 @@
     line-height: 71px;
   }
 
-  .about .about-heading .about-heading-img {
+  .about .about-heading > div {
     flex: 0 0 33.3333%;
     min-height: 150px;
   }

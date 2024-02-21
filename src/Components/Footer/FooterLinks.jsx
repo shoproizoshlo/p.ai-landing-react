@@ -23,12 +23,14 @@ const FooterLinks = ({ footerLinksTitle, children }) => {
         <h5 className="mb-0 sm:mb-7 text-lg sm:text-2xl">{footerLinksTitle}</h5>
         <FontAwesomeIcon
           icon="fa-solid fa-chevron-down"
-          className={`ms-3 lg:hidden ${isLinkOpen ? "open" : ""}`}
+          className={`ms-3 lg:hidden transition-transform duration-500 transform ${
+            isLinkOpen ? "rotate-180" : ""
+          }`}
         />
       </div>
       <ul
-        className={`flex flex-col text-sm tracking-widest ${
-          isLinkOpen ? "flex" : "hidden"
+        className={`flex flex-col text-sm tracking-widest overflow-hidden transition-all duration-500 ease-in-out ${
+          isLinkOpen ? "h-auto" : "h-0"
         }`}
       >
         {children}

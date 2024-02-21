@@ -9,6 +9,17 @@
 .open {
   transform: rotate(180deg);
 }
+.footer-links ul {
+  animation: slideFromRightToLeft 0.3s ease-in-out;
+}
+@keyframes slideFromRightToLeft {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
 
 /* ----------------- */
 .footer-links ul li {

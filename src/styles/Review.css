@@ -1,51 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
 
 .review-container {
-  /* width: 100%; */
   background-color: #4e5eff;
-}
-.review {
-  /* margin: 0 auto; */
-  /* max-width: 1280px; */
-  /* width: 100%; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* color: white; */
-}
-
-.review > div {
-  /* margin: 100px 20px; */
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-.review > div > div {
-  /* margin-bottom: 40px; */
 }
 .review > div > p {
   color: #fff;
   font-size: 20px;
   line-height: 40px;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-  font-family: "Arial", sans-serif;
-  letter-spacing: 0.16200000047683716px;
-  text-transform: none;
 }
 .review > div > p:first-of-type {
   margin-bottom: 120px;
   max-width: 842px;
   position: relative;
-  /* color: #fff; */
   font-size: 18px;
   line-height: 27px;
-  /* font-weight: 400; */
-  /* font-style: normal; */
-  /* text-align: left; */
-  /* font-family: "Arial", sans-serif; */
   letter-spacing: 0.8100000023841858px;
-  /* text-transform: none; */
 }
 
 .review p::after {
@@ -60,15 +29,8 @@
 .review > div > p:last-of-type {
   margin-top: 0;
   margin-bottom: 0;
-  /* color: #fff; */
   font-size: 18px;
   line-height: 30px;
-  /* font-weight: 400; */
-  /* font-style: normal; */
-  /* text-align: left; */
-  /* font-family: "Arial", sans-serif; */
-  /* letter-spacing: 0.16200000047683716px; */
-  /* text-transform: none; */
 }
 
 .review > div .company-name {
@@ -106,10 +68,6 @@
 }
 
 @media (min-width: 768px) {
-  .review > div {
-    /* margin: 100px 50px 100px 120px; */
-  }
-
   .review > div > p:first-of-type {
     font-size: 42px;
     line-height: 52px;

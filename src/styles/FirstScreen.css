@@ -1,22 +1,10 @@
-.first-screen {
-  /* max-width: 1280px; */
-  /* width: 100%; */
-  /* margin: 50px auto 120px auto; */
-  /* padding: 0 20px; */
-}
-
 .first-screen h1 {
   margin: 10px auto;
   max-width: 550px;
-  color: #0d0d0d;
   font-size: 30px;
   line-height: 40px;
-  font-weight: 400;
-  font-style: normal;
   text-align: center;
-  font-family: "Arial", sans-serif;
   letter-spacing: 2.934000015258789px;
-  text-transform: none;
 }
 
 .first-screen h2 {
@@ -24,33 +12,20 @@
   color: #7e5fff;
   font-size: 30px;
   line-height: 40px;
-  font-style: normal;
   text-align: center;
-  font-family: "Arial", sans-serif;
-  font-weight: 400;
   letter-spacing: 2.934000015258789px;
-  text-transform: none;
 }
 
 .first-screen p {
   max-width: 585px;
   margin: 10px auto;
-  color: #0d0d0d;
   font-size: 16px;
   line-height: 24px;
-  font-style: normal;
   text-align: center;
-  font-family: "Arial", sans-serif;
-  font-weight: 400;
   letter-spacing: 0.7739999890327454px;
-  text-transform: none;
 }
 
 @media (min-width: 640px) {
-  .first-screen {
-    /* margin: 150px auto; */
-  }
-
   .first-screen h1 {
     font-size: 55px;
     line-height: 62px;
@@ -64,10 +39,5 @@
   .first-screen p {
     font-size: 22px;
     line-height: 35px;
-  }
-}
-@media (min-width: 1024px) {
-  .first-screen {
-    /* margin: 100px auto 150px auto; */
   }
 }

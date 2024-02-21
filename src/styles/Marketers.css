@@ -1,18 +1,3 @@
-.marketers-container {
-  /* padding: 100px; */
-  /* padding: 60px 20px; */
-  /* background-color: black; */
-  /* text-align: center; */
-}
-.marketers {
-  /* max-width: 1280px; */
-  /* width: 100%; */
-  /* margin: 0 auto; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-}
-
 .marketers p {
   color: white;
   font-size: 16px;
@@ -35,7 +20,6 @@
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  /* bottom: 0; */
   width: 0;
   height: 2px;
   background-color: white;
@@ -45,13 +29,6 @@
 .marketers p a:hover::after,
 .marketers p a:active::after {
   width: 100%;
-}
-
-.marketers-logo {
-  /* margin: 50px 0; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
 }
 
 .marketers-logo div {
@@ -72,10 +49,6 @@
 }
 
 @media (min-width: 640px) {
-  .marketers-container {
-    /* padding: 100px 40px; */
-    /* text-align: center; */
-  }
   .marketers p {
     font-size: 18px;
     line-height: 27px;
@@ -92,11 +65,5 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-}
-
-@media (min-width: 1024px) {
-  .marketers-container {
-    /* padding: 100px; */
   }
 }

@@ -1,10 +1,8 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navigate } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
 import Footer from "./Components/Footer/Footer";
 import Modal from "./Components/Main/Modal";
 

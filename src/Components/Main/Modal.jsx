@@ -1,11 +1,10 @@
 import React from "react";
-import "../../styles/Modal.css";
 
 const Modal = ({ isOpen, onClose }) => {
   return (
     isOpen && (
       <div
-        className="flex justify-center items-center fixed inset-0 w-full h-full z-30 modal-overlay"
+        className="flex justify-center items-center fixed inset-0 w-full h-full z-30 bg-black bg-opacity-30"
         onClick={onClose}
       >
         <div
@@ -15,7 +14,7 @@ const Modal = ({ isOpen, onClose }) => {
           <p>Sorry!</p>
           <p>This is just a sample website.</p>
           <button
-            className="mt-3 pt-1 pb-1 ps-5 pe-4 bg-black text-white rounded-xl"
+            className="mt-3 pt-1 pb-1 ps-5 pe-4 bg-black text-white rounded-xl hover:cursor-pointer active:cursor-pointer"
             onClick={onClose}
           >
             Close

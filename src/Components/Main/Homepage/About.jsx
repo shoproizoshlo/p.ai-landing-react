@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import AboutSection from "./AboutSection";
 import Review from "./Review";
 
@@ -74,7 +76,7 @@ const About = ({ headingAbout, imgAbout, openModal }) => {
           onClick={openModal}
           className="w-full h-14 mt-14 mx-auto block bg-white text-black text-base rounded"
         >
-          Book a demo
+          <Link to="/demo">Book a demo</Link>
         </button>
       </div>
     </div>

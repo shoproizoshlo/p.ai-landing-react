@@ -34,6 +34,7 @@ function App() {
           <Route path="/blog" element={<Modal />} />
           <Route path="/login" element={<Modal />} />
           <Route path="/success-stories" element={<Modal />} />
+          <Route path="/demo" element={<Modal />} />
           <Route path="/" element={<Homepage />} />
         </Routes>
         <Main openModal={openModal} />

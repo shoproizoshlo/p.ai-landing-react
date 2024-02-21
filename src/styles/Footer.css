@@ -36,6 +36,9 @@ footer .policy p:active::after {
 }
 
 @media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
   footer > div div {
     flex: 0 0 50%;
     display: flex;
@@ -43,9 +46,6 @@ footer .policy p:active::after {
     justify-content: flex-end;
     align-items: flex-start;
   }
-}
-
-@media (min-width: 768px) {
   footer .policy p {
     margin-right: 20px;
     font-size: 15px;

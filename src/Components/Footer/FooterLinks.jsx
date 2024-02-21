@@ -15,12 +15,12 @@ const FooterLinks = ({ footerLinksTitle, children }) => {
   return (
     <div className="mb-4 md:mb-0 flex flex-col footer-links">
       <div
-        className="flex flex-row items-center"
+        className="mb-0 sm:mb-5 sm:ms-2 lg:ms-0 flex flex-row items-center"
         onClick={() => {
           setIsLinkOpen((prevState) => !prevState);
         }}
       >
-        <h5 className="mb-0 sm:mb-7 text-lg sm:text-2xl">{footerLinksTitle}</h5>
+        <h5 className="text-lg sm:text-2xl">{footerLinksTitle}</h5>
         <FontAwesomeIcon
           icon="fa-solid fa-chevron-down"
           className={`ms-3 lg:hidden transition-transform duration-500 transform ${
@@ -31,7 +31,7 @@ const FooterLinks = ({ footerLinksTitle, children }) => {
       <ul
         className={`flex flex-col text-sm tracking-widest overflow-hidden transition-all duration-500 ease-in-out ${
           isLinkOpen ? "h-auto" : "h-0"
-        }`}
+        } lg:h-auto`}
       >
         {children}
       </ul>

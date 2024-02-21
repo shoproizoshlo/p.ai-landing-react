@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import "../../styles/NavDesktop.css";
 
 const NavDesktop = ({ openModal }) => {
@@ -5,19 +7,19 @@ const NavDesktop = ({ openModal }) => {
     <div className="w-full hidden lg:flex flex-row justify-center nav-desktop">
       <ul className="w-2/5 flex flex-row justify-between">
         <li onClick={openModal}>
-          <a>Product</a>
+          <Link to="/product">Product</Link>
         </li>
         <li onClick={openModal}>
-          <a>Customers</a>
+          <Link to="/customers">Customers</Link>
         </li>
         <li onClick={openModal}>
-          <a>About</a>
+          <Link to="/about">About</Link>
         </li>
         <li onClick={openModal}>
-          <a>Blog</a>
+          <Link to="/blog">Blog</Link>
         </li>
         <li onClick={openModal}>
-          <a>Login</a>
+          <Link to="/login">Login</Link>
         </li>
       </ul>
     </div>

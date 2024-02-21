@@ -11,7 +11,6 @@ This is a website page for p.ai service. This version isn't real, just to practi
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -47,6 +46,7 @@ Users should be able to:
 
 - Imporing Font awesome icons to React app.
 - prevState configurations
+- Tailwind classes using
 
 ```js
  onClick={(icon) => setIsMenuOpen((prevState) => !prevState)}
@@ -125,10 +125,6 @@ p::after {
   content: " " attr(data-last-word);
 }
 ```
-
-### Continued development
-
-- Add Tailwind
 
 ### Useful resources
 

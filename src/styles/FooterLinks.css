@@ -11,6 +11,10 @@
 .footer-links ul li:last-child {
   margin-bottom: 0;
 }
+.footer-links ul li:hover,
+.footer-links ul li:active {
+  cursor: pointer;
+}
 .footer-links ul li a {
   color: #0d0d0d;
 }

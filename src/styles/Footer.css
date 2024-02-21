@@ -5,11 +5,14 @@ footer > div div {
   align-items: flex-start;
   justify-content: flex-start;
 }
+footer > p {
+  margin-top: 30px;
+  font-size: 10px;
+  text-align: center;
+}
 
 footer .policy p {
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 footer .policy p a {
   color: #0d0d0d;
@@ -32,11 +35,6 @@ footer .policy p:active::after {
   width: 100%;
 }
 
-footer > p {
-  margin-top: 30px;
-  font-size: 10px;
-  text-align: center;
-}
 @media (min-width: 640px) {
   footer > div div {
     flex: 0 0 50%;

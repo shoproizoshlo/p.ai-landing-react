@@ -4,17 +4,6 @@
 .footer-links:last-child {
   margin-bottom: 0;
 }
-.footer-links h5 {
-  margin-bottom: 0px;
-  font-size: 18px;
-  line-height: 27px;
-}
-
-.footer-links ul {
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: 0.14399999380111694px;
-}
 
 .footer-links ul li {
   margin-bottom: 5px;
@@ -46,12 +35,6 @@
 @media (min-width: 768px) {
   .footer-links {
     flex: 0 0 35%;
-  }
-
-  .footer-links h5 {
-    margin-bottom: 28px;
-    font-size: 23px;
-    line-height: 38px;
   }
 
   .footer-links li {

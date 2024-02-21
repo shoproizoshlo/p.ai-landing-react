@@ -1,12 +1,6 @@
 import "../../../styles/Product.css";
 
-const Product = ({
-  heading3,
-  productDescription,
-  productImg,
-  openModal,
-  closeModal,
-}) => {
+const Product = ({ heading3, productDescription, productImg, openModal }) => {
   return (
     <div className="py-28 px-4 sm:py-36 sm:p-10 product-container">
       <div className="my-0 mx-auto max-w-7xl w-full flex flex-col-reverse md:flex-row items-center product">

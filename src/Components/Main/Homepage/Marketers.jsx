@@ -4,7 +4,7 @@ import Mindfulchef from "../../../assets/mindfulchef-logo.svg";
 import Thg from "../../../assets/thg-logo.svg";
 import "../../../styles/Marketers.css";
 
-const Marketers = ({ openModal, closeModal }) => {
+const Marketers = ({ openModal }) => {
   return (
     <div className="py-16 px-5 sm:py-28 sm:px-10 lg:p-28 bg-black marketers-container">
       <div className="max-w-7xl w-g w-full my-0 mx-auto flex flex-col items-center marketers">

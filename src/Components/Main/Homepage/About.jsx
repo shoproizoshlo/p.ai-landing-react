@@ -9,7 +9,7 @@ import CompanyName from "../../../assets/company-review.svg";
 
 import "../../../styles/About.css";
 
-const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
+const About = ({ headingAbout, imgAbout, openModal }) => {
   return (
     <div className="py-24 flex flex-col items-center bg-black about">
       <div className="max-w-7xl w-full my-0 mx-auto pt-0 pb-0 ps-5 pe-5 flex flex-col items-center about-heading">
@@ -26,7 +26,6 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
           <AboutSection
             imgAboutSection={VolumeImg}
             openModal={openModal}
-            closeModal={closeModal}
             headingAboutSection="Volume"
             descriptionAboutSection="Always-on, predictive acquisition and retention. Acquire new and repeat customers across any ad platform, at scale."
           />
@@ -40,7 +39,6 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
           <AboutSection
             imgAboutSection={EfficiencyImg}
             openModal={openModal}
-            closeModal={closeModal}
             headingAboutSection="Efficiency"
             descriptionAboutSection="Predictive Audiences that ensure you invest the optimal amount based on every customer’s predicted conversion and customer lifetime value. No waste."
           />
@@ -54,7 +52,6 @@ const About = ({ headingAbout, imgAbout, openModal, closeModal }) => {
           <AboutSection
             imgAboutSection={UpliftImg}
             openModal={openModal}
-            closeModal={closeModal}
             headingAboutSection="Uplift"
             descriptionAboutSection="Prove incrementality using multi-cell lift tests, with holdouts. This is real performance."
           />

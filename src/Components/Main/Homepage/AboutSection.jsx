@@ -5,7 +5,6 @@ const AboutSection = ({
   headingAboutSection,
   descriptionAboutSection,
   openModal,
-  closeModal,
 }) => {
   return (
     <div className="p-2 md:p-3 max-w-sm w-full md:w-1/3 flex flex-col items-center rounded about-section">

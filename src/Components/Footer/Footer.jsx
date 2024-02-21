@@ -3,7 +3,7 @@ import Logo from "../../assets/Logo.svg";
 
 import "../../styles/Footer.css";
 
-const Footer = ({ openModal, closeModal }) => {
+const Footer = ({ openModal }) => {
   return (
     <footer className="max-w-7xl w-full my-0 mx-auto py-10 md:py-20 px-5">
       <div className="mb-12 sm:mb-20 flex flex-col sm:flex-row items-start justify-start sm:justify-between">
@@ -15,11 +15,7 @@ const Footer = ({ openModal, closeModal }) => {
           />
         </div>
         <div>
-          <FooterLinks
-            footerLinksTitle="Product"
-            openModal={openModal}
-            closeModal={closeModal}
-          >
+          <FooterLinks footerLinksTitle="Product" openModal={openModal}>
             <li>
               <a onClick={openModal}>Overview</a>
             </li>
@@ -27,11 +23,7 @@ const Footer = ({ openModal, closeModal }) => {
               <a onClick={openModal}>Customers</a>
             </li>
           </FooterLinks>
-          <FooterLinks
-            footerLinksTitle="Company"
-            openModal={openModal}
-            closeModal={closeModal}
-          >
+          <FooterLinks footerLinksTitle="Company" openModal={openModal}>
             <li>
               <a onClick={openModal}>About Us</a>
             </li>
@@ -42,11 +34,7 @@ const Footer = ({ openModal, closeModal }) => {
               <a onClick={openModal}>Contact</a>
             </li>
           </FooterLinks>
-          <FooterLinks
-            footerLinksTitle="Social"
-            openModal={openModal}
-            closeModal={closeModal}
-          >
+          <FooterLinks footerLinksTitle="Social" openModal={openModal}>
             <li>
               <a onClick={openModal}>Blog</a>
             </li>

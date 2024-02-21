@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import "../../../styles/Product.css";
 
 const Product = ({ heading3, productDescription, productImg, openModal }) => {
@@ -8,10 +10,12 @@ const Product = ({ heading3, productDescription, productImg, openModal }) => {
           <h3 className="mt-0 mb-6 max-w-md text-2xl sm:text-5xl md:text-6xl text-center md:text-left">
             {heading3}
           </h3>
-          <p className="mt-0 max-w-md text-base text-center md:text-left">
+          <p className="mt-0 mb-5 max-w-md text-base text-center md:text-left">
             {productDescription}
           </p>
-          <a onClick={openModal}>Learn more</a>
+          <p onClick={openModal}>
+            <Link to="/product">Learn more</Link>
+          </p>
         </div>
         <div className="product-img">
           <img src={productImg} alt="" />

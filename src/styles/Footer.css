@@ -1,50 +1,9 @@
-footer {
-  /* max-width: 1280px; */
-  /* width: 100%; */
-  /* margin: 0 auto; */
-  /* padding: 40px 20px; */
-  /* display: flex;
-  flex-direction: column; */
-}
-footer > div {
-  /* margin-bottom: 50px; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: flex-start; */
-  /* align-items: flex-start; */
-}
 footer > div div {
   flex: 0 0 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-
-.logo {
-  /* overflow: hidden; */
-  /* position: relative; */
-}
-.logo img {
-  /* width: 100%; */
-  /* height: 41px; */
-  /* object-fit: contain; */
-  /* object-position: left; */
-  /* position: relative; */
-  /* top: 0;
-  left: 0; */
-}
-
-footer .policy {
-  /* margin-bottom: 0; */
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-footer .policy div {
-  /* margin-top: 10px; */
-  /* flex: 1; */
-  /* display: flex; */
-  /* flex-direction: column; */
 }
 
 footer .policy p {
@@ -64,7 +23,7 @@ footer .policy p {
 footer .policy p a {
   color: #0d0d0d;
 }
-footer .policy p::after {
+footer .policy p a::after {
   width: 0;
   height: 2px;
   display: flex;
@@ -73,13 +32,12 @@ footer .policy p::after {
   content: "";
   position: relative;
   left: 50%;
-  /* bottom: 0; */
   transform: translateX(-50%);
   transition: width 0.5s ease;
 }
 
-footer .policy p:hover::after,
-footer .policy p:active::after {
+footer .policy p a:hover::after,
+footer .policy p a:active::after {
   width: 100%;
 }
 
@@ -89,13 +47,6 @@ footer > p {
   text-align: center;
 }
 @media (min-width: 640px) {
-  footer > div {
-    /* margin-bottom: 80px; */
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
-  }
-
   footer > div div {
     flex: 0 0 50%;
     display: flex;
@@ -106,18 +57,6 @@ footer > p {
 }
 
 @media (min-width: 768px) {
-  footer {
-    /* padding: 80px 20px; */
-  }
-
-  footer .policy {
-    /* flex-direction: row; */
-  }
-  footer .policy div {
-    /* flex-direction: row; */
-    /* justify-content: flex-end; */
-  }
-
   footer .policy p {
     margin-right: 20px;
     font-size: 15px;

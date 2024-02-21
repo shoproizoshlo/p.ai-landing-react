@@ -35,6 +35,12 @@ function App() {
           <Route path="/login" element={<Modal />} />
           <Route path="/success-stories" element={<Modal />} />
           <Route path="/demo" element={<Modal />} />
+          <Route path="/about-us" element={<Modal />} />
+          <Route path="/support" element={<Modal />} />
+          <Route path="/contact" element={<Modal />} />
+          <Route path="/blog" element={<Modal />} />
+          <Route path="/privacy-policy" element={<Modal />} />
+          <Route path="/data-processing-agreement" element={<Modal />} />
           <Route path="/" element={<Homepage />} />
         </Routes>
         <Main openModal={openModal} />

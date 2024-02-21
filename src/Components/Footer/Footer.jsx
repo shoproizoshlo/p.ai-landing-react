@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import FooterLinks from "./FooterLinks";
 import Logo from "../../assets/Logo.svg";
 
@@ -17,26 +19,38 @@ const Footer = ({ openModal }) => {
         <div>
           <FooterLinks footerLinksTitle="Product" openModal={openModal}>
             <li>
-              <a onClick={openModal}>Overview</a>
+              <a onClick={openModal}>
+                <Link to="/product">Overview</Link>
+              </a>
             </li>
             <li>
-              <a onClick={openModal}>Customers</a>
+              <a onClick={openModal}>
+                <Link to="/success-stories">Customers</Link>
+              </a>
             </li>
           </FooterLinks>
           <FooterLinks footerLinksTitle="Company" openModal={openModal}>
             <li>
-              <a onClick={openModal}>About Us</a>
+              <a onClick={openModal}>
+                <Link to="/about-us">About Us</Link>
+              </a>
             </li>
             <li>
-              <a onClick={openModal}>Support</a>
+              <a onClick={openModal}>
+                <Link to="/support">Support</Link>
+              </a>
             </li>
             <li>
-              <a onClick={openModal}>Contact</a>
+              <a onClick={openModal}>
+                <Link to="/contact">Contact</Link>
+              </a>
             </li>
           </FooterLinks>
           <FooterLinks footerLinksTitle="Social" openModal={openModal}>
             <li>
-              <a onClick={openModal}>Blog</a>
+              <a onClick={openModal}>
+                <Link to="/blog">Blog</Link>
+              </a>
             </li>
             <li>
               <a onClick={openModal}>Twitter</a>
@@ -51,10 +65,16 @@ const Footer = ({ openModal }) => {
         <p>Programmai Ltd. © 2022. All Rights Reserved.</p>
         <div className="mt-3 flex-grow flex flex-col md:flex-row md:justify-end">
           <p>
-            <a onClick={openModal}>Privacy Policy</a>
+            <a onClick={openModal}>
+              <Link to="/privacy-policy">Privacy Policy</Link>
+            </a>
           </p>
           <p>
-            <a onClick={openModal}>Data Processing Agreement</a>
+            <a onClick={openModal}>
+              <Link to="/data-processing-agreement">
+                Data Processing Agreement
+              </Link>
+            </a>
           </p>
         </div>
       </div>

@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import "../../../styles/AboutSection.css";
 
 const AboutSection = ({
@@ -21,9 +23,9 @@ const AboutSection = ({
           </div>
           <p className="mt-0 text-white">{descriptionAboutSection}</p>
         </div>
-        <a onClick={openModal} className="mt-0 text-white">
-          View customer stories
-        </a>
+        <p onClick={openModal} className="mt-0 text-white">
+          <Link to="/success-stories">View customer stories</Link>
+        </p>
       </div>
     </div>
   );

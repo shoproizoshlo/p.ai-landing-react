@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import AsosLogo from "../../../assets/asos-logo.svg";
 import DominosLogo from "../../../assets/dominos-logo.svg";
 import Mindfulchef from "../../../assets/mindfulchef-logo.svg";
@@ -23,10 +25,8 @@ const Marketers = ({ openModal }) => {
             <img src={Thg} alt="THG logo" />
           </div>
         </div>
-        <p>
-          <a onClick={openModal} className="text-white">
-            Read success stories
-          </a>
+        <p onClick={openModal} className="text-white">
+          <Link to="/success-stories">Read success stories</Link>
         </p>
       </div>
     </div>

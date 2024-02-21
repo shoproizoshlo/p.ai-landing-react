@@ -5,8 +5,4 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <Router>
-    <App />
-  </Router>
-);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);

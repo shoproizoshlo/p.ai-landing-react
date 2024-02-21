@@ -13,7 +13,7 @@ import Homepage from "./Components/Main/Homepage/Homepage";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const openModal = () => {
     setIsModalOpen(true);
@@ -21,25 +21,25 @@ function App() {
 
   const closeModal = () => {
     setIsModalOpen(false);
-    navigate("/");
+    // navigate("/");
   };
   return (
     <>
-      <Header openModal={openModal} />
-      <Routes>
-        <Route path="/product" element={<Modal />} />
-        <Route path="/customers" element={<Modal />} />
-        <Route path="/about" element={<Modal />} />
-        <Route path="/blog" element={<Modal />} />
-        <Route path="/login" element={<Modal />} />
-        <Route path="/" element={<Homepage />} />
-      </Routes>
-
-      <Main openModal={openModal} />
-
-      <Footer openModal={openModal} />
-
-      <Modal isOpen={isModalOpen} onClose={closeModal} />
+      <Router>
+        <Header openModal={openModal} />
+        <Routes>
+          <Route path="/product" element={<Modal />} />
+          <Route path="/customers" element={<Modal />} />
+          <Route path="/about" element={<Modal />} />
+          <Route path="/blog" element={<Modal />} />
+          <Route path="/login" element={<Modal />} />
+          <Route path="/success-stories" element={<Modal />} />
+          <Route path="/" element={<Homepage />} />
+        </Routes>
+        <Main openModal={openModal} />
+        <Footer openModal={openModal} />
+        <Modal isOpen={isModalOpen} onClose={closeModal} />
+      </Router>
     </>
   );
 }
